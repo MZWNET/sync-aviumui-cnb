@@ -3,13 +3,6 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - master
-    paths-ignore:
-      - assets/nvchecker/*
-      - README.md
-      - .github/workflows/sync-aosp.yml
 
 permissions:
   contents: write
