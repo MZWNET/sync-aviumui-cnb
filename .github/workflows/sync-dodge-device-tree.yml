@@ -36,8 +36,7 @@ jobs:
                   GIT_COMMITTER_DATE="$COMMITTER_DATE" \
                   git commit-tree $TREE -m "$COMMIT_MSG")
 
-              git branch -f "$BRANCH" $NEW_COMMIT
-              git checkout "$BRANCH"
+              git checkout -B "$BRANCH" "$NEW_COMMIT"
 
               git for-each-ref --format='%(refname)' refs/remotes refs/heads | \
                   grep -v "refs/heads/$BRANCH" | xargs -r -n1 git update-ref -d
@@ -57,31 +56,31 @@ jobs:
           git config --global lfs.locksverify true
 
           snapshot_mirror \
-              "https://github.com/LineageOS/android_device_oneplus_dodge" \
-              "lineage-23.2" \
-              "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_device_oneplus_dodge.git"
+            "https://github.com/LineageOS/android_device_oneplus_dodge" \
+            "lineage-23.2" \
+            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_device_oneplus_dodge.git"
 
           snapshot_mirror \
-              "https://github.com/LineageOS/android_device_oneplus_sm8750-common" \
-              "lineage-23.2" \
-              "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_device_oneplus_sm8750-common.git"
+            "https://github.com/LineageOS/android_device_oneplus_sm8750-common" \
+            "lineage-23.2" \
+            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_device_oneplus_sm8750-common.git"
 
           snapshot_mirror \
-              "https://github.com/LineageOS/android_hardware_oplus" \
-              "lineage-23.2" \
-              "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_hardware_oplus.git"
+            "https://github.com/LineageOS/android_hardware_oplus" \
+            "lineage-23.2" \
+            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_hardware_oplus.git"
 
           snapshot_mirror \
-              "https://github.com/LineageOS/android_kernel_oneplus_sm8750" \
-              "lineage-23.2" \
-              "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750.git"
+            "https://github.com/LineageOS/android_kernel_oneplus_sm8750" \
+            "lineage-23.2" \
+            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750.git"
 
           snapshot_mirror \
-              "https://github.com/LineageOS/android_kernel_oneplus_sm8750-devicetrees" \
-              "lineage-23.2" \
-              "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750-devicetrees.git"
+            "https://github.com/LineageOS/android_kernel_oneplus_sm8750-devicetrees" \
+            "lineage-23.2" \
+            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750-devicetrees.git"
 
           snapshot_mirror \
-              "https://github.com/LineageOS/android_kernel_oneplus_sm8750-modules" \
-              "lineage-23.2" \
-              "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750-modules.git"
+            "https://github.com/LineageOS/android_kernel_oneplus_sm8750-modules" \
+            "lineage-23.2" \
+            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750-modules.git"

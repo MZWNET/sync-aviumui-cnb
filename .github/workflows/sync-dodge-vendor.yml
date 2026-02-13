@@ -36,8 +36,7 @@ jobs:
                   GIT_COMMITTER_DATE="$COMMITTER_DATE" \
                   git commit-tree $TREE -m "$COMMIT_MSG")
 
-              git branch -f "$BRANCH" $NEW_COMMIT
-              git checkout "$BRANCH"
+              git checkout -B "$BRANCH" "$NEW_COMMIT"
 
               git for-each-ref --format='%(refname)' refs/remotes refs/heads | \
                   grep -v "refs/heads/$BRANCH" | xargs -r -n1 git update-ref -d
@@ -57,11 +56,11 @@ jobs:
           git config --global lfs.locksverify true
 
           snapshot_mirror \
-              "https://github.com/TheMuppets/proprietary_vendor_oneplus_dodge" \
-              "lineage-23.2" \
-              "https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/MZWNET/TheMuppets/proprietary_vendor_oneplus_dodge.git"
+            "https://github.com/TheMuppets/proprietary_vendor_oneplus_dodge" \
+            "lineage-23.2" \
+            "https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/MZWNET/TheMuppets/proprietary_vendor_oneplus_dodge.git"
 
           snapshot_mirror \
-              "https://github.com/TheMuppets/proprietary_vendor_oneplus_sm8750-common" \
-              "lineage-23.2" \
-              "https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/MZWNET/TheMuppets/proprietary_vendor_oneplus_sm8750-common.git"
+            "https://github.com/TheMuppets/proprietary_vendor_oneplus_sm8750-common" \
+            "lineage-23.2" \
+            "https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/MZWNET/TheMuppets/proprietary_vendor_oneplus_sm8750-common.git"
