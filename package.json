@@ -1,0 +1,26 @@
+{
+  "name": "sync-aviumui-cnb",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Make snapshot mirror for AviumUI org repos to CNB with GitHub Actions.",
+  "author": "mzwing <mzwing@mzwing.eu.org>",
+  "license": "MIT",
+  "module": "index.ts",
+  "scripts": {
+    "start": "bun index.ts",
+    "typecheck": "tsgo --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^7.4.3",
+    "@types/bun": "latest",
+    "@typescript/native-preview": "^7.0.0-dev.20260212.1",
+    "eslint": "^9.39.2",
+    "jiti": "^2.6.1",
+    "typescript": "^5.9.3"
+  }
+}

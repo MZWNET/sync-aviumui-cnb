@@ -1,0 +1,78 @@
+name: Sync AviumUI org repos to CNB
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - assets/nvchecker/*
+      - README.md
+
+permissions:
+  actions: write
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          python-version: cpython-3.12.12
+
+      - name: Install nvchecker
+        run: uv tool install nvchecker
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Fetch repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CNB_TOKEN: ${{ secrets.CNB_TOKEN }}
+        run: bun run start
+
+      - name: Handle results
+        id: results
+        run: |
+          echo "Changed repos:"
+          cat out/change_repo.txt
+          echo "changed_repos=$(cat out/change_repo.txt)" >> $GITHUB_OUTPUT
+          echo "Deleted repos:"
+          cat out/delete_repo.txt
+
+      - name: Commit
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -am "update[bot]: scan changes at $(date "+%Y-%m-%d %H:%M:%S")" || true
+
+      - name: Sync all AviumUI repos to CNB
+        uses: MZWNET/org-snapshot-mirror@master
+        with:
+          source_org: AviumUI
+          source_token: ${{ secrets.GITHUB_TOKEN }}
+          source_repos: ${{ steps.results.outputs.changed_repos }}
+          target_url: "https://cnb.cool/MZWNET/AviumUI/"
+          target_username: MZWNET
+          target_password: ${{ secrets.CNB_TOKEN }}
+          target_platform: cnb
+          cnb_api_token: ${{ secrets.CNB_TOKEN }}
+          cnb_org_path: MZWNET/AviumUI
+          max_parallel: "5"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
