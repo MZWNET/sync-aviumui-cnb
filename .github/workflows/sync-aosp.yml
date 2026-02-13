@@ -10,7 +10,7 @@ jobs:
         run: |
           git lfs install
           git config --global lfs.locksverify true
-          git init --bare
+          git init
 
           git remote add source https://android.googlesource.com/platform/prebuilts/misc
           git fetch --depth 1 source refs/changes/27/3918627/1
