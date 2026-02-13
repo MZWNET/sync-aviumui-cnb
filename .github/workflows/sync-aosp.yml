@@ -39,6 +39,6 @@ jobs:
           git for-each-ref --format='%(refname)' refs/remotes refs/heads | \
               grep -v 'refs/heads/lineage23.2' | xargs -r -n1 git update-ref -d
 
-          git remote add target https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/MZWNET/AOSP/platform_prebuilts_misc.git
+          git remote add target https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/AOSP/platform_prebuilts_misc.git
           git push target lineage23.2:lineage23.2
           git lfs push target lineage23.2
