@@ -16,9 +16,6 @@ jobs:
           git fetch --depth 1 source refs/changes/27/3918627/1
           git checkout FETCH_HEAD
 
-          git lfs fetch
-          git lfs checkout
-
           TREE=$(git rev-parse HEAD^{tree})
           AUTHOR_NAME=$(git log -1 --pretty=format:'%an' HEAD)
           AUTHOR_EMAIL=$(git log -1 --pretty=format:'%ae' HEAD)
