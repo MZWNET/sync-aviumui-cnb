@@ -9,9 +9,9 @@ on:
     paths-ignore:
       - assets/nvchecker/*
       - README.md
+      - .github/workflows/sync-aosp.yml
 
 permissions:
-  actions: write
   contents: write
 
 jobs:
@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: Fetch repos
+      - name: Scan needed repos
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CNB_TOKEN: ${{ secrets.CNB_TOKEN }}
@@ -46,11 +46,19 @@ jobs:
       - name: Handle results
         id: results
         run: |
-          echo "Changed repos:"
-          cat out/change_repo.txt
-          echo "changed_repos=$(cat out/change_repo.txt)" >> $GITHUB_OUTPUT
-          echo "Deleted repos:"
-          cat out/delete_repo.txt
+          if [ $(cat out/change_repo.txt) == "[]" ]; then
+            echo "No repos have changes."
+            echo "whether_sync=false" >> $GITHUB_OUTPUT
+          else
+            echo "Some repos have changes, preparing to sync..."
+            echo "whether_sync=true" >> $GITHUB_OUTPUT
+            echo "changed_repos=$(cat out/change_repo.txt)" >> $GITHUB_OUTPUT
+          fi
+          if [ $(cat out/delete_repo.txt) == "[]" ]; then
+            echo "No repos need to be deleted."
+          else
+            echo "Deleted repos: $(cat out/delete_repo.txt)"
+          fi
 
       - name: Commit
         run: |
@@ -59,7 +67,8 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git commit -am "update[bot]: scan changes at $(date "+%Y-%m-%d %H:%M:%S")" || true
 
-      - name: Sync all AviumUI repos to CNB
+      - name: Sync AviumUI repos to CNB
+        if: steps.results.outputs.whether_sync == 'true'
         uses: MZWNET/org-snapshot-mirror@master
         with:
           source_org: AviumUI
