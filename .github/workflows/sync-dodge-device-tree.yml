@@ -58,29 +58,29 @@ jobs:
           snapshot_mirror \
             "https://github.com/LineageOS/android_device_oneplus_dodge" \
             "lineage-23.2" \
-            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_device_oneplus_dodge.git"
+            "https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/MZWNET/LineageOS/android_device_oneplus_dodge"
 
           snapshot_mirror \
             "https://github.com/LineageOS/android_device_oneplus_sm8750-common" \
             "lineage-23.2" \
-            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_device_oneplus_sm8750-common.git"
+            "https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/MZWNET/LineageOS/android_device_oneplus_sm8750-common"
 
           snapshot_mirror \
             "https://github.com/LineageOS/android_hardware_oplus" \
             "lineage-23.2" \
-            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_hardware_oplus.git"
+            "https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/MZWNET/LineageOS/android_hardware_oplus"
 
           snapshot_mirror \
             "https://github.com/LineageOS/android_kernel_oneplus_sm8750" \
             "lineage-23.2" \
-            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750.git"
+            "https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750"
 
           snapshot_mirror \
             "https://github.com/LineageOS/android_kernel_oneplus_sm8750-devicetrees" \
             "lineage-23.2" \
-            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750-devicetrees.git"
+            "https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750-devicetrees"
 
           snapshot_mirror \
             "https://github.com/LineageOS/android_kernel_oneplus_sm8750-modules" \
             "lineage-23.2" \
-            "https://cnb:${{ secrets.CNB_TOKEN_AOSP }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750-modules.git"
+            "https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/MZWNET/LineageOS/android_kernel_oneplus_sm8750-modules"
