@@ -235,6 +235,21 @@
       "version": "20251203.140148",
       "revision": "0fa5800e1c06b06b5b79c46b0c6f4db4350b2c00",
       "url": "https://github.com/AviumUI/android_packages_apps_AviumSetup/commit/0fa5800e1c06b06b5b79c46b0c6f4db4350b2c00"
+    },
+    "proprietary_vendor_pixel_clocks": {
+      "version": "20260211.182541",
+      "revision": "e3beb954fd54d82798f34002425ff58f9a115714",
+      "url": "https://github.com/AviumUI/proprietary_vendor_pixel_clocks/commit/e3beb954fd54d82798f34002425ff58f9a115714"
+    },
+    "proprietary_vendor_pixel_gms": {
+      "version": "20260130.174718",
+      "revision": "729ad4d0e9a3c0fe2f7e548fce00bda76190b0fd",
+      "url": "https://github.com/AviumUI/proprietary_vendor_pixel_gms/commit/729ad4d0e9a3c0fe2f7e548fce00bda76190b0fd"
+    },
+    "proprietary_vendor_pixel_gsans": {
+      "version": "20260130.141136",
+      "revision": "cb363d22d4c739d17f2069b3d7993a40095c9f42",
+      "url": "https://github.com/AviumUI/proprietary_vendor_pixel_gsans/commit/cb363d22d4c739d17f2069b3d7993a40095c9f42"
     }
   }
 }

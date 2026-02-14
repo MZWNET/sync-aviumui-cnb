@@ -190,3 +190,15 @@ github = "AviumUI/android_vendor_lineage"
 [packages_apps_AviumSetup]
 source = "github"
 github = "AviumUI/packages_apps_AviumSetup"
+
+[proprietary_vendor_pixel_clocks]
+source = "github"
+github = "AviumUI/proprietary_vendor_pixel_clocks"
+
+[proprietary_vendor_pixel_gms]
+source = "github"
+github = "AviumUI/proprietary_vendor_pixel_gms"
+
+[proprietary_vendor_pixel_gsans]
+source = "github"
+github = "AviumUI/proprietary_vendor_pixel_gsans"
