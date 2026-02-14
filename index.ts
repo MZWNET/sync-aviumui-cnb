@@ -1,4 +1,5 @@
 import { mkdir } from "node:fs/promises";
+import { EXTRAS } from "@/src/config";
 import { getCnbRepos } from "@/src/services/cnb";
 import { getBranches, getFileContent } from "@/src/services/github";
 import {
@@ -13,14 +14,14 @@ async function main(): Promise<void> {
   const branches = await getBranches();
   console.log(`Found ${branches.length} branches`);
 
-  const githubNames = new Set<string>();
+  const githubNames: string[] = [];
 
   await Promise.all(
     branches.map(async (branch) => {
       const content = await getFileContent(branch);
       if (content) {
         const names = extractProjectNames(content);
-        names.forEach(n => githubNames.add(n));
+        githubNames.push(...names);
         console.log(`Branch ${branch}: ${names.length} projects`);
       }
       else {
@@ -29,18 +30,28 @@ async function main(): Promise<void> {
     }),
   );
 
-  console.log(`\nGitHub: ${githubNames.size} unique projects`);
+  const extraNames = (EXTRAS ?? "")
+    .split(",")
+    .map(name => name.trim())
+    .filter(Boolean);
+  if (extraNames.length > 0) {
+    githubNames.push(...extraNames);
+  }
+
+  const githubNameSet = new Set(githubNames);
+
+  console.log(`\nGitHub: ${githubNameSet.size} unique projects`);
 
   const cnbRepos = await getCnbRepos();
   const cnbNames = new Set(cnbRepos);
   console.log(`CNB: ${cnbNames.size} repos`);
 
-  const toDelete = Array.from(cnbNames).filter(n => !githubNames.has(n));
+  const toDelete = Array.from(cnbNames).filter(n => !githubNameSet.has(n));
 
   await mkdir("out", { recursive: true });
   await Bun.write("out/delete_repo.txt", JSON.stringify(toDelete));
 
-  const nvcheckerConfig = generateNvcheckerConfig(Array.from(githubNames));
+  const nvcheckerConfig = generateNvcheckerConfig(Array.from(githubNameSet));
   await Bun.write("assets/nvchecker/config.toml", nvcheckerConfig);
   await Bun.write("assets/nvchecker/keyfile.toml", generateKeyfile());
 
