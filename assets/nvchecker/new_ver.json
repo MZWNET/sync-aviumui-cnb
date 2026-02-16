@@ -102,9 +102,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_BtHelper/commit/4c56078ed71e5fefdf5ccf3eea4c137588782fed"
     },
     "android_packages_apps_CatShare": {
-      "version": "20260212.055415",
-      "revision": "d6c38301a50a97256a3a90677710594897529d4e",
-      "url": "https://github.com/AviumUI/android_packages_apps_CatShare/commit/d6c38301a50a97256a3a90677710594897529d4e"
+      "version": "20260130.151257",
+      "revision": "b018b69c32984bf44b9806b3eaba616eb8ee122a",
+      "url": "https://github.com/AviumUI/android_packages_apps_CatShare/commit/b018b69c32984bf44b9806b3eaba616eb8ee122a"
     },
     "android_packages_apps_ColumbusService": {
       "version": "20260212.152008",
@@ -202,9 +202,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_Trebuchet/commit/d3eb713c7958f5bd96b864735a8b00305945e534"
     },
     "android_packages_apps_Updater": {
-      "version": "20260213.125232",
-      "revision": "c6a380c67bcb4f6f988a9ac5b580156802dca058",
-      "url": "https://github.com/AviumUI/android_packages_apps_Updater/commit/c6a380c67bcb4f6f988a9ac5b580156802dca058"
+      "version": "20260215.063324",
+      "revision": "88f4a74a91f8d5762caa79037dc10f6146d07e7e",
+      "url": "https://github.com/AviumUI/android_packages_apps_Updater/commit/88f4a74a91f8d5762caa79037dc10f6146d07e7e"
     },
     "android_packages_apps_Via": {
       "version": "20251123.115153",
