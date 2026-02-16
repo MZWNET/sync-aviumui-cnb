@@ -12,8 +12,7 @@ import { extractProjectNames } from "@/src/utils/xml";
 
 async function main(): Promise<void> {
   if (!REPO_NAME && !EXTRAS) {
-    console.error("Error: Both REPO_NAME and EXTRAS are empty. At least one must be set.");
-    process.exit(1);
+    throw new Error("Both REPO_NAME and EXTRAS are empty. At least one must be set.");
   }
 
   const githubNames: string[] = [];
