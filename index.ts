@@ -1,5 +1,5 @@
 import { mkdir } from "node:fs/promises";
-import { EXTRAS } from "@/src/config";
+import { EXTRAS, REPO_NAME } from "@/src/config";
 import { getCnbRepos } from "@/src/services/cnb";
 import { getBranches, getFileContent } from "@/src/services/github";
 import {
@@ -11,24 +11,34 @@ import {
 import { extractProjectNames } from "@/src/utils/xml";
 
 async function main(): Promise<void> {
-  const branches = await getBranches();
-  console.log(`Found ${branches.length} branches`);
+  if (!REPO_NAME && !EXTRAS) {
+    console.error("Error: Both REPO_NAME and EXTRAS are empty. At least one must be set.");
+    process.exit(1);
+  }
 
   const githubNames: string[] = [];
 
-  await Promise.all(
-    branches.map(async (branch) => {
-      const content = await getFileContent(branch);
-      if (content) {
-        const names = extractProjectNames(content);
-        githubNames.push(...names);
-        console.log(`Branch ${branch}: ${names.length} projects`);
-      }
-      else {
-        console.log(`Branch ${branch}: no avium.xml found`);
-      }
-    }),
-  );
+  if (!REPO_NAME) {
+    console.warn("Warning: REPO_NAME is not set, skipping XML manifest parsing");
+  }
+  else {
+    const branches = await getBranches();
+    console.log(`Found ${branches.length} branches`);
+
+    await Promise.all(
+      branches.map(async (branch) => {
+        const content = await getFileContent(branch);
+        if (content) {
+          const names = extractProjectNames(content);
+          githubNames.push(...names);
+          console.log(`Branch ${branch}: ${names.length} projects`);
+        }
+        else {
+          console.log(`Branch ${branch}: no avium.xml found`);
+        }
+      }),
+    );
+  }
 
   const extraNames = (EXTRAS ?? "")
     .split(",")

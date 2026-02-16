@@ -2,7 +2,7 @@ import { CNB_ORG } from "@/src/config";
 import { getCnbHeaders, sleep } from "@/src/utils/http";
 
 export async function getCnbRepos(): Promise<string[]> {
-  const url = `https://api.cnb.cool/${CNB_ORG}/-/repos?filter_type=public&desc=false&descendant=all`;
+  const url = `https://api.cnb.cool/${CNB_ORG}/-/repos?page_size=100&filter_type=public&desc=false&descendant=all`;
   const maxRetries = 3;
 
   for (let i = 0; i < maxRetries; i++) {

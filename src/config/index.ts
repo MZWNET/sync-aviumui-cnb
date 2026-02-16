@@ -1,5 +1,5 @@
 export const REPO_OWNER = Bun.env.REPO_OWNER || "AviumUI";
-export const REPO_NAME = Bun.env.REPO_NAME || "android_manifests";
+export const REPO_NAME = Bun.env.REPO_NAME;
 export const FILE_PATH = "snippets/avium.xml";
 
 export const GITHUB_TOKEN = Bun.env.GITHUB_TOKEN;

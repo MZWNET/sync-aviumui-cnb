@@ -18,13 +18,13 @@ export function generateKeyfile(): string {
 }
 
 export async function runNvchecker(): Promise<void> {
-  const configPath = "assets/nvchecker/config.toml";
+  const configPath = `assets/nvchecker-${REPO_OWNER}/config.toml`;
 
   console.log("\nRunning nvchecker...");
   await Bun.$`nvchecker -c ${configPath}`;
 
   console.log("Running nvcmp...");
-  await Bun.$`nvcmp -c ${configPath} -j > assets/nvchecker/changes.json`;
+  await Bun.$`nvcmp -c ${configPath} -j > assets/nvchecker-${REPO_OWNER}/changes.json`;
 
   console.log("Running nvtake...");
   await Bun.$`nvtake -c ${configPath} --all`;
@@ -33,7 +33,7 @@ export async function runNvchecker(): Promise<void> {
 }
 
 export async function getChangedRepos(): Promise<string[]> {
-  const content = await Bun.file("assets/nvchecker/changes.json").text();
+  const content = await Bun.file(`assets/nvchecker-${REPO_OWNER}/changes.json`).text();
   const changes = JSON.parse(content) as { delta: string; name: string }[];
   return changes
     .filter(c => c.delta === "old" || c.delta === "new" || c.delta === "added")
