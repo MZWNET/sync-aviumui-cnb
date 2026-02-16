@@ -1,5 +1,4 @@
-import { mkdir } from "node:fs/promises";
-import { EXTRAS, REPO_NAME } from "@/src/config";
+import { EXTRAS, REPO_NAME, REPO_OWNER } from "@/src/config";
 import { getCnbRepos } from "@/src/services/cnb";
 import { getBranches, getFileContent } from "@/src/services/github";
 import {
@@ -57,15 +56,14 @@ async function main(): Promise<void> {
 
   const toDelete = Array.from(cnbNames).filter(n => !githubNameSet.has(n));
 
-  await mkdir("out", { recursive: true });
   await Bun.write("out/delete_repo.txt", JSON.stringify(toDelete));
 
   const nvcheckerConfig = generateNvcheckerConfig(Array.from(githubNameSet));
-  await Bun.write("assets/nvchecker/config.toml", nvcheckerConfig);
-  await Bun.write("assets/nvchecker/keyfile.toml", generateKeyfile());
+  await Bun.write(`assets/nvchecker-${REPO_OWNER}/config.toml`, nvcheckerConfig);
+  await Bun.write(`assets/nvchecker-${REPO_OWNER}/keyfile.toml`, generateKeyfile());
 
   console.log(`\nTo delete: ${toDelete.length} repos`);
-  console.log("nvchecker config written to assets/nvchecker/config.toml");
+  console.log(`nvchecker config written to assets/nvchecker-${REPO_OWNER}/config.toml`);
 
   await runNvchecker();
 

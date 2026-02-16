@@ -34,6 +34,6 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .DS_Store
 
 # nvchecker
-assets/nvchecker/keyfile.toml
-assets/nvchecker/changes.json
-assets/nvchecker/old_ver.json~
+assets/nvchecker-*/keyfile.toml
+assets/nvchecker-*/changes.json
+assets/nvchecker-*/old_ver.json~
