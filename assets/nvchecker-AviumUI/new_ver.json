@@ -37,9 +37,9 @@
       "url": "https://github.com/AviumUI/android_frameworks_av/commit/d3de7e5beb03d3d4da490604e6da434122af8645"
     },
     "android_frameworks_base": {
-      "version": "20260212.181637",
-      "revision": "8e16c33b555106540a059e6531cc287247444466",
-      "url": "https://github.com/AviumUI/android_frameworks_base/commit/8e16c33b555106540a059e6531cc287247444466"
+      "version": "20260216.090221",
+      "revision": "fdb5f3250ecaa02edc33dfc171c3ab74316e0ddc",
+      "url": "https://github.com/AviumUI/android_frameworks_base/commit/fdb5f3250ecaa02edc33dfc171c3ab74316e0ddc"
     },
     "android_frameworks_libs_systemui": {
       "version": "20260126.135018",
@@ -62,9 +62,9 @@
       "url": "https://github.com/AviumUI/android_lineage-sdk/commit/abebcd8ceaa82a3f1ec2e2d3cbbe068d10dc92bb"
     },
     "android_manifests": {
-      "version": "20260212.170723",
-      "revision": "e609f945dfb27baf30236b23a08c0b93946ffd02",
-      "url": "https://github.com/AviumUI/android_manifests/commit/e609f945dfb27baf30236b23a08c0b93946ffd02"
+      "version": "20260214.174600",
+      "revision": "d60bb678a88caaaec1a62f69f3da18e25f46bc1e",
+      "url": "https://github.com/AviumUI/android_manifests/commit/d60bb678a88caaaec1a62f69f3da18e25f46bc1e"
     },
     "android_packages_apps_AviumFreeWindow": {
       "version": "20260130.151448",
@@ -122,9 +122,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_ExthmUseful/commit/da506166ec9346da6fb22fc836d2960c1f307498"
     },
     "android_packages_apps_FeatureSettings": {
-      "version": "20260213.014608",
-      "revision": "a8ceba7287cfa8dd30a99cb7f1f23306a63ca705",
-      "url": "https://github.com/AviumUI/android_packages_apps_FeatureSettings/commit/a8ceba7287cfa8dd30a99cb7f1f23306a63ca705"
+      "version": "20260216.090001",
+      "revision": "e682ed07f61065adad17eac740b4aaeccbdfaa84",
+      "url": "https://github.com/AviumUI/android_packages_apps_FeatureSettings/commit/e682ed07f61065adad17eac740b4aaeccbdfaa84"
     },
     "android_packages_apps_GameSpace": {
       "version": "20250901.104832",
@@ -222,9 +222,9 @@
       "url": "https://github.com/AviumUI/android_system_core/commit/b49dfb6a473cc6b7428d11d81610b1ef0d117688"
     },
     "android_vendor_avium": {
-      "version": "20260212.170506",
-      "revision": "6de24b3ef6b0c11d0262eca0a205afbcc80dad5c",
-      "url": "https://github.com/AviumUI/android_vendor_avium/commit/6de24b3ef6b0c11d0262eca0a205afbcc80dad5c"
+      "version": "20260214.173338",
+      "revision": "f16d93fc41bd069b9aa9833acc737a266936e1a5",
+      "url": "https://github.com/AviumUI/android_vendor_avium/commit/f16d93fc41bd069b9aa9833acc737a266936e1a5"
     },
     "android_vendor_lineage": {
       "version": "20260212.151820",
