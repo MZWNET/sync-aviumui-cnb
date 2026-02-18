@@ -22,9 +22,9 @@
       "url": "https://github.com/AviumUI/android_build_soong/commit/642727fc0742f55d0f22f5001cae94368881cb9c"
     },
     "android_device_lineage_sepolicy": {
-      "version": "20260204.075423",
-      "revision": "23f955a52e19df7b5371ba2aa72378a0f57abf7b",
-      "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/23f955a52e19df7b5371ba2aa72378a0f57abf7b"
+      "version": "20260214.193706",
+      "revision": "06f600df7e7d356db569ad3727f1170da959e6dc",
+      "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/06f600df7e7d356db569ad3727f1170da959e6dc"
     },
     "android_external_blurview": {
       "version": "20250921.054051",
