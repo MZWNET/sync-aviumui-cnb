@@ -175,9 +175,17 @@ github = "AviumUI/android_packages_apps_Via"
 source = "github"
 github = "AviumUI/android_packages_modules_Nfc"
 
+[android_packages_modules_adb]
+source = "github"
+github = "AviumUI/android_packages_modules_adb"
+
 [android_system_core]
 source = "github"
 github = "AviumUI/android_system_core"
+
+[android_system_sepolicy]
+source = "github"
+github = "AviumUI/android_system_sepolicy"
 
 [android_vendor_avium]
 source = "github"
