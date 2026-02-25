@@ -37,9 +37,9 @@
       "url": "https://github.com/AviumUI/android_frameworks_av/commit/d3de7e5beb03d3d4da490604e6da434122af8645"
     },
     "android_frameworks_base": {
-      "version": "20260216.090221",
-      "revision": "fdb5f3250ecaa02edc33dfc171c3ab74316e0ddc",
-      "url": "https://github.com/AviumUI/android_frameworks_base/commit/fdb5f3250ecaa02edc33dfc171c3ab74316e0ddc"
+      "version": "20260224.133626",
+      "revision": "6f5a976e9ec2459d794b53ed118310a22c6364d0",
+      "url": "https://github.com/AviumUI/android_frameworks_base/commit/6f5a976e9ec2459d794b53ed118310a22c6364d0"
     },
     "android_frameworks_libs_systemui": {
       "version": "20260126.135018",
@@ -62,9 +62,9 @@
       "url": "https://github.com/AviumUI/android_lineage-sdk/commit/abebcd8ceaa82a3f1ec2e2d3cbbe068d10dc92bb"
     },
     "android_manifests": {
-      "version": "20260222.221657",
-      "revision": "4ba9f162b4ea44e8e1a4215913f0ea10a750d396",
-      "url": "https://github.com/AviumUI/android_manifests/commit/4ba9f162b4ea44e8e1a4215913f0ea10a750d396"
+      "version": "20260224.135419",
+      "revision": "5e2eeee811c2d0714a84bf3baeca5c022ffcabe2",
+      "url": "https://github.com/AviumUI/android_manifests/commit/5e2eeee811c2d0714a84bf3baeca5c022ffcabe2"
     },
     "android_packages_apps_AviumFreeWindow": {
       "version": "20260130.151448",
