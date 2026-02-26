@@ -7,9 +7,9 @@
       "url": "https://github.com/AviumUI/android_art/commit/79f7da04e730dd9aef739d9444bd5d4cd182bda0"
     },
     "android_bootable_recovery": {
-      "version": "20260222.214059",
-      "revision": "b6cebde0d9f36078b4cb04ec1afaaca8c711ff2e",
-      "url": "https://github.com/AviumUI/android_bootable_recovery/commit/b6cebde0d9f36078b4cb04ec1afaaca8c711ff2e"
+      "version": "20260225.133815",
+      "revision": "495724bdd50f19e3b7c3b82e9b9dcf37938d3708",
+      "url": "https://github.com/AviumUI/android_bootable_recovery/commit/495724bdd50f19e3b7c3b82e9b9dcf37938d3708"
     },
     "android_build": {
       "version": "20260212.161145",
@@ -77,9 +77,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/9e555fd3d95e7234e53282d0bdbffb3a2d63201b"
     },
     "android_packages_apps_AviumLyricBarCore": {
-      "version": "20260203.074418",
-      "revision": "1998035e2cca3b829b87db53edcb8bdcecd2a134",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumLyricBarCore/commit/1998035e2cca3b829b87db53edcb8bdcecd2a134"
+      "version": "20260222.033245",
+      "revision": "c3682030a2940bbb5d7e733008428904c519b319",
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumLyricBarCore/commit/c3682030a2940bbb5d7e733008428904c519b319"
     },
     "android_packages_apps_AviumSetup": {
       "version": "20251203.140148",
