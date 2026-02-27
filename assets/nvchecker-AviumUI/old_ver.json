@@ -62,9 +62,9 @@
       "url": "https://github.com/AviumUI/android_lineage-sdk/commit/abebcd8ceaa82a3f1ec2e2d3cbbe068d10dc92bb"
     },
     "android_manifests": {
-      "version": "20260224.135419",
-      "revision": "5e2eeee811c2d0714a84bf3baeca5c022ffcabe2",
-      "url": "https://github.com/AviumUI/android_manifests/commit/5e2eeee811c2d0714a84bf3baeca5c022ffcabe2"
+      "version": "20260225.152051",
+      "revision": "7783b2181758b48a387704ca65d3f80e212f3bf9",
+      "url": "https://github.com/AviumUI/android_manifests/commit/7783b2181758b48a387704ca65d3f80e212f3bf9"
     },
     "android_packages_apps_AviumFreeWindow": {
       "version": "20260130.151448",
@@ -220,6 +220,11 @@
       "version": "20260222.212452",
       "revision": "8b59bfb7af0aede35c42a237fb470c8a5967fb3d",
       "url": "https://github.com/AviumUI/android_packages_modules_adb/commit/8b59bfb7af0aede35c42a237fb470c8a5967fb3d"
+    },
+    "android_packages_resources_devicesettings": {
+      "version": "20260225.163034",
+      "revision": "f6a1ab67d03e616de2876528727d0fc398648d24",
+      "url": "https://github.com/AviumUI/android_packages_resources_devicesettings/commit/f6a1ab67d03e616de2876528727d0fc398648d24"
     },
     "android_system_core": {
       "version": "20260207.142455",

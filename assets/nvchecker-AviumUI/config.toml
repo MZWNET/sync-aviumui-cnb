@@ -179,6 +179,10 @@ github = "AviumUI/android_packages_modules_Nfc"
 source = "github"
 github = "AviumUI/android_packages_modules_adb"
 
+[android_packages_resources_devicesettings]
+source = "github"
+github = "AviumUI/android_packages_resources_devicesettings"
+
 [android_system_core]
 source = "github"
 github = "AviumUI/android_system_core"
