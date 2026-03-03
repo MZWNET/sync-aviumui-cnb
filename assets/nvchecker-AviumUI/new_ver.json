@@ -7,9 +7,9 @@
       "url": "https://github.com/AviumUI/android_art/commit/79f7da04e730dd9aef739d9444bd5d4cd182bda0"
     },
     "android_bootable_recovery": {
-      "version": "20260225.133815",
-      "revision": "495724bdd50f19e3b7c3b82e9b9dcf37938d3708",
-      "url": "https://github.com/AviumUI/android_bootable_recovery/commit/495724bdd50f19e3b7c3b82e9b9dcf37938d3708"
+      "version": "20260301.215258",
+      "revision": "82254b000c94595b9a05149ff72a21cb072d9ce4",
+      "url": "https://github.com/AviumUI/android_bootable_recovery/commit/82254b000c94595b9a05149ff72a21cb072d9ce4"
     },
     "android_build": {
       "version": "20260212.161145",
@@ -87,9 +87,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_AviumSetup/commit/0fa5800e1c06b06b5b79c46b0c6f4db4350b2c00"
     },
     "android_packages_apps_AviumSystemUIEX": {
-      "version": "20260213.014229",
-      "revision": "e045d47b543f8d7563aba2e2adc6ea036e937270",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/e045d47b543f8d7563aba2e2adc6ea036e937270"
+      "version": "20260302.151428",
+      "revision": "7e7fe63f374f8ed89c2947890515f212306788e2",
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/7e7fe63f374f8ed89c2947890515f212306788e2"
     },
     "android_packages_apps_AviumUseful": {
       "version": "20260213.014017",
