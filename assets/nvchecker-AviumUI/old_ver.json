@@ -62,9 +62,9 @@
       "url": "https://github.com/AviumUI/android_lineage-sdk/commit/abebcd8ceaa82a3f1ec2e2d3cbbe068d10dc92bb"
     },
     "android_manifests": {
-      "version": "20260225.152051",
-      "revision": "7783b2181758b48a387704ca65d3f80e212f3bf9",
-      "url": "https://github.com/AviumUI/android_manifests/commit/7783b2181758b48a387704ca65d3f80e212f3bf9"
+      "version": "20260304.040831",
+      "revision": "0556d83f50be044ddd07eb71c8ae5e28d12388ac",
+      "url": "https://github.com/AviumUI/android_manifests/commit/0556d83f50be044ddd07eb71c8ae5e28d12388ac"
     },
     "android_packages_apps_AviumFreeWindow": {
       "version": "20260130.151448",
@@ -190,6 +190,11 @@
       "version": "20260207.192032",
       "revision": "ef3e9aee055caf168a0a26ef2bba47fc19c34655",
       "url": "https://github.com/AviumUI/android_packages_apps_SetupWizard/commit/ef3e9aee055caf168a0a26ef2bba47fc19c34655"
+    },
+    "android_packages_apps_Starmoment": {
+      "version": "20260303.100935",
+      "revision": "0f6dbef50946d2704e260c8d787285e98e5125f4",
+      "url": "https://github.com/AviumUI/android_packages_apps_Starmoment/commit/0f6dbef50946d2704e260c8d787285e98e5125f4"
     },
     "android_packages_apps_SystemUITools": {
       "version": "20260121.084737",

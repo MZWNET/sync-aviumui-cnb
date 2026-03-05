@@ -155,6 +155,10 @@ github = "AviumUI/android_packages_apps_Settings"
 source = "github"
 github = "AviumUI/android_packages_apps_SetupWizard"
 
+[android_packages_apps_Starmoment]
+source = "github"
+github = "AviumUI/android_packages_apps_Starmoment"
+
 [android_packages_apps_SystemUITools]
 source = "github"
 github = "AviumUI/android_packages_apps_SystemUITools"
