@@ -37,9 +37,9 @@
       "url": "https://github.com/AviumUI/android_frameworks_av/commit/d3de7e5beb03d3d4da490604e6da434122af8645"
     },
     "android_frameworks_base": {
-      "version": "20260224.133626",
-      "revision": "6f5a976e9ec2459d794b53ed118310a22c6364d0",
-      "url": "https://github.com/AviumUI/android_frameworks_base/commit/6f5a976e9ec2459d794b53ed118310a22c6364d0"
+      "version": "20260305.110318",
+      "revision": "318b264f60a6d1111bed7070e3f514bf83bb00d3",
+      "url": "https://github.com/AviumUI/android_frameworks_base/commit/318b264f60a6d1111bed7070e3f514bf83bb00d3"
     },
     "android_frameworks_libs_systemui": {
       "version": "20260126.135018",
@@ -72,14 +72,14 @@
       "url": "https://github.com/AviumUI/android_packages_apps_AviumFreeWindow/commit/33b752c5642c59675f6e2d94ea6940a652ec4d78"
     },
     "android_packages_apps_AviumLockscreenEdit": {
-      "version": "20260212.024409",
-      "revision": "9e555fd3d95e7234e53282d0bdbffb3a2d63201b",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/9e555fd3d95e7234e53282d0bdbffb3a2d63201b"
+      "version": "20260305.110056",
+      "revision": "4a711c2bdff5215e96f0bdc8f6a7e291c8212e5e",
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/4a711c2bdff5215e96f0bdc8f6a7e291c8212e5e"
     },
     "android_packages_apps_AviumLyricBarCore": {
-      "version": "20260222.033245",
-      "revision": "c3682030a2940bbb5d7e733008428904c519b319",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumLyricBarCore/commit/c3682030a2940bbb5d7e733008428904c519b319"
+      "version": "20260303.100856",
+      "revision": "57bb8a51de9243085afd257dc386ffcedcc5a44d",
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumLyricBarCore/commit/57bb8a51de9243085afd257dc386ffcedcc5a44d"
     },
     "android_packages_apps_AviumSetup": {
       "version": "20251203.140148",
@@ -92,9 +92,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/7e7fe63f374f8ed89c2947890515f212306788e2"
     },
     "android_packages_apps_AviumUseful": {
-      "version": "20260213.014017",
-      "revision": "62b6b1c4c97f74ac0f993d43b242f645a6d3750c",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumUseful/commit/62b6b1c4c97f74ac0f993d43b242f645a6d3750c"
+      "version": "20260303.090927",
+      "revision": "572a08d3083d798a0478343311a92beff381280b",
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumUseful/commit/572a08d3083d798a0478343311a92beff381280b"
     },
     "android_packages_apps_BtHelper": {
       "version": "20250124.053503",
@@ -182,9 +182,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_PocketMode/commit/4b4495df9c5c10f0aadaf754b229b0a5d99f21ee"
     },
     "android_packages_apps_Settings": {
-      "version": "20260210.075216",
-      "revision": "bfddac520922b85197e95af0b8db9292796a18b0",
-      "url": "https://github.com/AviumUI/android_packages_apps_Settings/commit/bfddac520922b85197e95af0b8db9292796a18b0"
+      "version": "20260303.101240",
+      "revision": "2eb1994aaf31f1caffe501f2afee5ca2d0fd8da9",
+      "url": "https://github.com/AviumUI/android_packages_apps_Settings/commit/2eb1994aaf31f1caffe501f2afee5ca2d0fd8da9"
     },
     "android_packages_apps_SetupWizard": {
       "version": "20260207.192032",
@@ -242,9 +242,9 @@
       "url": "https://github.com/AviumUI/android_system_sepolicy/commit/4a20f6188e7b36f5aa5df8ca0f4339b6c4a1b3c1"
     },
     "android_vendor_avium": {
-      "version": "20260214.173338",
-      "revision": "f16d93fc41bd069b9aa9833acc737a266936e1a5",
-      "url": "https://github.com/AviumUI/android_vendor_avium/commit/f16d93fc41bd069b9aa9833acc737a266936e1a5"
+      "version": "20260303.144956",
+      "revision": "de9532e22d2b96338583fcdafb12bac9129a80a9",
+      "url": "https://github.com/AviumUI/android_vendor_avium/commit/de9532e22d2b96338583fcdafb12bac9129a80a9"
     },
     "android_vendor_lineage": {
       "version": "20260212.151820",
