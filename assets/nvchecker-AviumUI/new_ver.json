@@ -62,9 +62,9 @@
       "url": "https://github.com/AviumUI/android_lineage-sdk/commit/abebcd8ceaa82a3f1ec2e2d3cbbe068d10dc92bb"
     },
     "android_manifests": {
-      "version": "20260310.150320",
-      "revision": "0da1329766ffc8a3e4257f10c5f67589eb1390ff",
-      "url": "https://github.com/AviumUI/android_manifests/commit/0da1329766ffc8a3e4257f10c5f67589eb1390ff"
+      "version": "20260311.121758",
+      "revision": "c6de19cbca1db3506b8bbaafaa7e64397139b563",
+      "url": "https://github.com/AviumUI/android_manifests/commit/c6de19cbca1db3506b8bbaafaa7e64397139b563"
     },
     "android_packages_apps_AviumFreeWindow": {
       "version": "20260130.151448",
@@ -182,9 +182,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_PocketMode/commit/4b4495df9c5c10f0aadaf754b229b0a5d99f21ee"
     },
     "android_packages_apps_Settings": {
-      "version": "20260303.101240",
-      "revision": "2eb1994aaf31f1caffe501f2afee5ca2d0fd8da9",
-      "url": "https://github.com/AviumUI/android_packages_apps_Settings/commit/2eb1994aaf31f1caffe501f2afee5ca2d0fd8da9"
+      "version": "20260308.094438",
+      "revision": "878347e16b3a89a54c6e7f5c82e4e6bf89e46217",
+      "url": "https://github.com/AviumUI/android_packages_apps_Settings/commit/878347e16b3a89a54c6e7f5c82e4e6bf89e46217"
     },
     "android_packages_apps_SetupWizard": {
       "version": "20260207.192032",
@@ -247,9 +247,9 @@
       "url": "https://github.com/AviumUI/android_vendor_avium/commit/de9532e22d2b96338583fcdafb12bac9129a80a9"
     },
     "android_vendor_lineage": {
-      "version": "20260212.151820",
-      "revision": "bfebc146fdd24a8884b6cb6951e435b751a51362",
-      "url": "https://github.com/AviumUI/android_vendor_lineage/commit/bfebc146fdd24a8884b6cb6951e435b751a51362"
+      "version": "20260311.121146",
+      "revision": "3a741f93e73d6be20835ca2b9d54341a57389d04",
+      "url": "https://github.com/AviumUI/android_vendor_lineage/commit/3a741f93e73d6be20835ca2b9d54341a57389d04"
     },
     "packages_apps_AviumSetup": {
       "version": "20251203.140148",
