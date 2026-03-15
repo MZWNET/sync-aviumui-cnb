@@ -179,9 +179,9 @@ github = "AviumUI/android_packages_apps_Via"
 source = "github"
 github = "AviumUI/android_packages_modules_Nfc"
 
-[android_packages_modules_adb]
+[android_packages_overlays_Lineage]
 source = "github"
-github = "AviumUI/android_packages_modules_adb"
+github = "AviumUI/android_packages_overlays_Lineage"
 
 [android_packages_resources_devicesettings]
 source = "github"
