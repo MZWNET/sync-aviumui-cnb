@@ -7,9 +7,9 @@
       "url": "https://github.com/AviumUI/android_art/commit/79f7da04e730dd9aef739d9444bd5d4cd182bda0"
     },
     "android_bootable_recovery": {
-      "version": "20260301.215258",
-      "revision": "82254b000c94595b9a05149ff72a21cb072d9ce4",
-      "url": "https://github.com/AviumUI/android_bootable_recovery/commit/82254b000c94595b9a05149ff72a21cb072d9ce4"
+      "version": "20260317.151313",
+      "revision": "195272055c220cade18641d711763e73d85325ff",
+      "url": "https://github.com/AviumUI/android_bootable_recovery/commit/195272055c220cade18641d711763e73d85325ff"
     },
     "android_build": {
       "version": "20260212.161145",
@@ -22,9 +22,9 @@
       "url": "https://github.com/AviumUI/android_build_soong/commit/e6687f90d04bdea602caa9d021a0489e10ee32fb"
     },
     "android_device_lineage_sepolicy": {
-      "version": "20260313.170336",
-      "revision": "e9e7855392f7eb65c9e6af954f7e58bebba86c0b",
-      "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/e9e7855392f7eb65c9e6af954f7e58bebba86c0b"
+      "version": "20260317.151429",
+      "revision": "9bacd70bab00eb532891a2ba7f0b7e3dad3d2890",
+      "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/9bacd70bab00eb532891a2ba7f0b7e3dad3d2890"
     },
     "android_external_blurview": {
       "version": "20250921.054051",
@@ -32,14 +32,14 @@
       "url": "https://github.com/AviumUI/android_external_blurview/commit/8589b77c1faaf214e638285dc855ff1e1e772e73"
     },
     "android_frameworks_av": {
-      "version": "20260207.053024",
-      "revision": "d3de7e5beb03d3d4da490604e6da434122af8645",
-      "url": "https://github.com/AviumUI/android_frameworks_av/commit/d3de7e5beb03d3d4da490604e6da434122af8645"
+      "version": "20260317.151623",
+      "revision": "1948910c5c366af35d71f836e1a10a390f6b018e",
+      "url": "https://github.com/AviumUI/android_frameworks_av/commit/1948910c5c366af35d71f836e1a10a390f6b018e"
     },
     "android_frameworks_base": {
-      "version": "20260314.064307",
-      "revision": "5167c8dd587c73a563ca07abbb93e5e7649bf1b9",
-      "url": "https://github.com/AviumUI/android_frameworks_base/commit/5167c8dd587c73a563ca07abbb93e5e7649bf1b9"
+      "version": "20260317.151709",
+      "revision": "be41889ad066679c87a01a88b5e8d841a24cbc6a",
+      "url": "https://github.com/AviumUI/android_frameworks_base/commit/be41889ad066679c87a01a88b5e8d841a24cbc6a"
     },
     "android_frameworks_libs_systemui": {
       "version": "20260126.135018",
@@ -47,9 +47,9 @@
       "url": "https://github.com/AviumUI/android_frameworks_libs_systemui/commit/0059ac58984dab95c13f16474e796bcc4cd73aed"
     },
     "android_frameworks_native": {
-      "version": "20260125.102749",
-      "revision": "ed89f594c1bda83090417cf221f06c44b7fb90aa",
-      "url": "https://github.com/AviumUI/android_frameworks_native/commit/ed89f594c1bda83090417cf221f06c44b7fb90aa"
+      "version": "20260317.151538",
+      "revision": "368d97d98b37f7301f83d0cb46462e92eef10e4b",
+      "url": "https://github.com/AviumUI/android_frameworks_native/commit/368d97d98b37f7301f83d0cb46462e92eef10e4b"
     },
     "android_frameworks_opt_telephony": {
       "version": "20260206.032214",
@@ -57,9 +57,9 @@
       "url": "https://github.com/AviumUI/android_frameworks_opt_telephony/commit/0175895a29e0ed65246929931e4162ec3daaf163"
     },
     "android_lineage-sdk": {
-      "version": "20260212.162051",
-      "revision": "abebcd8ceaa82a3f1ec2e2d3cbbe068d10dc92bb",
-      "url": "https://github.com/AviumUI/android_lineage-sdk/commit/abebcd8ceaa82a3f1ec2e2d3cbbe068d10dc92bb"
+      "version": "20260317.150920",
+      "revision": "47def4d217348b28bffd5e700eabeaec4fe11a32",
+      "url": "https://github.com/AviumUI/android_lineage-sdk/commit/47def4d217348b28bffd5e700eabeaec4fe11a32"
     },
     "android_manifests": {
       "version": "20260313.165523",
@@ -132,14 +132,14 @@
       "url": "https://github.com/AviumUI/android_packages_apps_GameSpace/commit/50c62122f04d730473544337632ffd4bdff2c3bc"
     },
     "android_packages_apps_Launcher3": {
-      "version": "20260305.124506",
-      "revision": "512d7eb957c24f4bea9cbe9ee09a527abc9090c4",
-      "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/512d7eb957c24f4bea9cbe9ee09a527abc9090c4"
+      "version": "20260317.151124",
+      "revision": "257cbc274b0c14ec62a3977bde4e2a3861a3e525",
+      "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/257cbc274b0c14ec62a3977bde4e2a3861a3e525"
     },
     "android_packages_apps_LineageParts": {
-      "version": "20260311.122917",
-      "revision": "f3d87f020848e855ea2c7a7362793bc3ceffd90e",
-      "url": "https://github.com/AviumUI/android_packages_apps_LineageParts/commit/f3d87f020848e855ea2c7a7362793bc3ceffd90e"
+      "version": "20260317.151355",
+      "revision": "7c0d3558575952cbe7175536475f8e1d683bca56",
+      "url": "https://github.com/AviumUI/android_packages_apps_LineageParts/commit/7c0d3558575952cbe7175536475f8e1d683bca56"
     },
     "android_packages_apps_Messaging": {
       "version": "20260118.015950",
@@ -182,9 +182,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_PocketMode/commit/4b4495df9c5c10f0aadaf754b229b0a5d99f21ee"
     },
     "android_packages_apps_Settings": {
-      "version": "20260308.094438",
-      "revision": "878347e16b3a89a54c6e7f5c82e4e6bf89e46217",
-      "url": "https://github.com/AviumUI/android_packages_apps_Settings/commit/878347e16b3a89a54c6e7f5c82e4e6bf89e46217"
+      "version": "20260317.150730",
+      "revision": "bac1a66073e0e174ddb583fc0fc45b93aac0ff3f",
+      "url": "https://github.com/AviumUI/android_packages_apps_Settings/commit/bac1a66073e0e174ddb583fc0fc45b93aac0ff3f"
     },
     "android_packages_apps_SetupWizard": {
       "version": "20260207.192032",
@@ -237,9 +237,9 @@
       "url": "https://github.com/AviumUI/android_packages_resources_devicesettings/commit/f6a1ab67d03e616de2876528727d0fc398648d24"
     },
     "android_system_core": {
-      "version": "20260207.142455",
-      "revision": "b49dfb6a473cc6b7428d11d81610b1ef0d117688",
-      "url": "https://github.com/AviumUI/android_system_core/commit/b49dfb6a473cc6b7428d11d81610b1ef0d117688"
+      "version": "20260317.151025",
+      "revision": "7717b0d4c85b37f710f799d646aed0f14554e86c",
+      "url": "https://github.com/AviumUI/android_system_core/commit/7717b0d4c85b37f710f799d646aed0f14554e86c"
     },
     "android_system_sepolicy": {
       "version": "20260222.204354",
