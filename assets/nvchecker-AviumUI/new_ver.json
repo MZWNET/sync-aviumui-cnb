@@ -37,9 +37,9 @@
       "url": "https://github.com/AviumUI/android_frameworks_av/commit/1948910c5c366af35d71f836e1a10a390f6b018e"
     },
     "android_frameworks_base": {
-      "version": "20260317.151709",
-      "revision": "be41889ad066679c87a01a88b5e8d841a24cbc6a",
-      "url": "https://github.com/AviumUI/android_frameworks_base/commit/be41889ad066679c87a01a88b5e8d841a24cbc6a"
+      "version": "20260318.143456",
+      "revision": "9c4430ecc29662711ee3ef4a13b48f4d2cdd2086",
+      "url": "https://github.com/AviumUI/android_frameworks_base/commit/9c4430ecc29662711ee3ef4a13b48f4d2cdd2086"
     },
     "android_frameworks_libs_systemui": {
       "version": "20260126.135018",
@@ -72,9 +72,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_AviumFreeWindow/commit/33b752c5642c59675f6e2d94ea6940a652ec4d78"
     },
     "android_packages_apps_AviumLockscreenEdit": {
-      "version": "20260312.113445",
-      "revision": "483ccd7077d4fc11df237ce2354cd71d3c34851d",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/483ccd7077d4fc11df237ce2354cd71d3c34851d"
+      "version": "20260318.135949",
+      "revision": "d8e6fc33356b739b54445b65f11722e5f6cf1669",
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/d8e6fc33356b739b54445b65f11722e5f6cf1669"
     },
     "android_packages_apps_AviumLyricBarCore": {
       "version": "20260303.100856",
@@ -92,9 +92,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/ddb82cc4c687240781578cb63af74387dc407389"
     },
     "android_packages_apps_AviumUseful": {
-      "version": "20260303.090927",
-      "revision": "572a08d3083d798a0478343311a92beff381280b",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumUseful/commit/572a08d3083d798a0478343311a92beff381280b"
+      "version": "20260318.145116",
+      "revision": "9f81b252f4c50c0482cdae90158f0203a23812c9",
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumUseful/commit/9f81b252f4c50c0482cdae90158f0203a23812c9"
     },
     "android_packages_apps_BtHelper": {
       "version": "20250124.053503",
@@ -227,9 +227,9 @@
       "url": "https://github.com/AviumUI/android_packages_overlays_Lineage/commit/806dd920c3735ead72bb1eb67049c46cb3597d2d"
     },
     "android_packages_resources_devicesettings": {
-      "version": "20260225.163034",
-      "revision": "f6a1ab67d03e616de2876528727d0fc398648d24",
-      "url": "https://github.com/AviumUI/android_packages_resources_devicesettings/commit/f6a1ab67d03e616de2876528727d0fc398648d24"
+      "version": "20260318.151143",
+      "revision": "761c99135f91a3a7e50db51db8137f58a2f061ab",
+      "url": "https://github.com/AviumUI/android_packages_resources_devicesettings/commit/761c99135f91a3a7e50db51db8137f58a2f061ab"
     },
     "android_system_core": {
       "version": "20260317.151025",
