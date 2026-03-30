@@ -1,7 +1,7 @@
 import { CNB_TOKEN, GITHUB_TOKEN } from "@/src/config";
 
 export function getGitHubHeaders(): Record<string, string> {
-  if (GITHUB_TOKEN) {
+  if (GITHUB_TOKEN != null && GITHUB_TOKEN !== "") {
     return { Authorization: `Bearer ${GITHUB_TOKEN}` };
   }
   return {};
@@ -14,7 +14,7 @@ export function getCnbHeaders(): Record<string, string> {
   };
 }
 
-export function sleep(ms: number): Promise<void> {
+export async function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
@@ -31,10 +31,10 @@ export async function fetchWithRetry(
       const retryAfter = res.headers.get("retry-after");
 
       let waitMs = 1000 * (i + 1);
-      if (resetHeader) {
+      if (resetHeader != null && resetHeader !== "") {
         waitMs = Math.max(0, Number(resetHeader) * 1000 - Date.now());
       }
-      else if (retryAfter) {
+      else if (retryAfter != null && retryAfter !== "") {
         waitMs = Number(retryAfter) * 1000;
       }
 

@@ -1,4 +1,4 @@
-export const REPO_OWNER = Bun.env.REPO_OWNER || "AviumUI";
+export const REPO_OWNER = Bun.env.REPO_OWNER ?? "AviumUI";
 export const REPO_NAME = Bun.env.REPO_NAME;
 export const FILE_PATH = "snippets/avium.xml";
 

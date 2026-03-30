@@ -10,13 +10,13 @@ import {
 import { extractProjectNames } from "@/src/utils/xml";
 
 async function main(): Promise<void> {
-  if (!REPO_NAME && !EXTRAS) {
+  if ((REPO_NAME == null || REPO_NAME === "") && (EXTRAS == null || EXTRAS === "")) {
     throw new Error("Both REPO_NAME and EXTRAS are empty. At least one must be set.");
   }
 
   const githubNames: string[] = [];
 
-  if (!REPO_NAME) {
+  if (REPO_NAME == null || REPO_NAME === "") {
     console.warn("Warning: REPO_NAME is not set, skipping XML manifest parsing");
   }
   else {
@@ -26,7 +26,7 @@ async function main(): Promise<void> {
     await Promise.all(
       branches.map(async (branch) => {
         const content = await getFileContent(branch);
-        if (content) {
+        if (content != null && content !== "") {
           const names = extractProjectNames(content);
           githubNames.push(...names);
           console.log(`Branch ${branch}: ${names.length} projects`);
@@ -74,4 +74,4 @@ async function main(): Promise<void> {
   console.log("Results written to out/change_repo.txt and out/delete_repo.txt");
 }
 
-main();
+void main();
