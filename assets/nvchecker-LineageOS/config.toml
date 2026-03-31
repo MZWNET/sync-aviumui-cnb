@@ -18,6 +18,11 @@ source = "github"
 github = "LineageOS/android_hardware_oplus"
 branch = "lineage-23.2"
 
+["android_kernel_oneplus_sm8750:lineage-23.2"]
+source = "github"
+github = "LineageOS/android_kernel_oneplus_sm8750"
+branch = "lineage-23.2"
+
 ["android_kernel_oneplus_sm8750-devicetrees:lineage-23.2"]
 source = "github"
 github = "LineageOS/android_kernel_oneplus_sm8750-devicetrees"
@@ -26,9 +31,4 @@ branch = "lineage-23.2"
 ["android_kernel_oneplus_sm8750-modules:lineage-23.2"]
 source = "github"
 github = "LineageOS/android_kernel_oneplus_sm8750-modules"
-branch = "lineage-23.2"
-
-["android_kernel_oneplus_sm8750:lineage-23.2"]
-source = "github"
-github = "LineageOS/android_kernel_oneplus_sm8750"
 branch = "lineage-23.2"
