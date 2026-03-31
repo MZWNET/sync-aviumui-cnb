@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "data": {
+    "art:fourteen": {
+      "version": "20240814.083957",
+      "revision": "f64709ea0bae6ca3dce193f0a36ca572bf454fe5",
+      "url": "https://github.com/PixelOS-AOSP/art/commit/f64709ea0bae6ca3dce193f0a36ca572bf454fe5"
+    },
+    "bionic:fourteen": {
+      "version": "20240807.160226",
+      "revision": "b63ffac9c74f170ff067bd7d15db25fa08679aa0",
+      "url": "https://github.com/PixelOS-AOSP/bionic/commit/b63ffac9c74f170ff067bd7d15db25fa08679aa0"
+    },
+    "bootable_recovery:fourteen": {
+      "version": "20240802.050555",
+      "revision": "eb0152160aab1b4584b223bd1e5325414badd43c",
+      "url": "https://github.com/PixelOS-AOSP/bootable_recovery/commit/eb0152160aab1b4584b223bd1e5325414badd43c"
+    },
+    "build:fourteen": {
+      "version": "20240904.160044",
+      "revision": "144820b76abe023ccea60dc8747cb0fc9739ff4f",
+      "url": "https://github.com/PixelOS-AOSP/build/commit/144820b76abe023ccea60dc8747cb0fc9739ff4f"
+    },
+    "build_soong:fourteen": {
+      "version": "20240719.065133",
+      "revision": "bff5014e37917fa4a9c4962d7b905f62d1e23c0c",
+      "url": "https://github.com/PixelOS-AOSP/build_soong/commit/bff5014e37917fa4a9c4962d7b905f62d1e23c0c"
+    },
+    "device_lineage_sepolicy:fourteen": {
+      "version": "20240901.210217",
+      "revision": "1857168ddf79f11398f04d6d74cd30490f53de00",
+      "url": "https://github.com/PixelOS-AOSP/device_lineage_sepolicy/commit/1857168ddf79f11398f04d6d74cd30490f53de00"
+    },
+    "external_arm-optimized-routines:fourteen": {
+      "version": "20240703.112818",
+      "revision": "3a0b36b72f10ed33b149046d57fdb54efcf25869",
+      "url": "https://github.com/PixelOS-AOSP/external_arm-optimized-routines/commit/3a0b36b72f10ed33b149046d57fdb54efcf25869"
+    },
+    "external_jemalloc_new:fourteen": {
+      "version": "20240622.193723",
+      "revision": "3d1c2e67dfc496afa79004e233472c593f6844e6",
+      "url": "https://github.com/PixelOS-AOSP/external_jemalloc_new/commit/3d1c2e67dfc496afa79004e233472c593f6844e6"
+    },
+    "external_skia:fourteen": {
+      "version": "20240803.200209",
+      "revision": "d8da4978982b91d79495d5349026e2d9cd08c7f3",
+      "url": "https://github.com/PixelOS-AOSP/external_skia/commit/d8da4978982b91d79495d5349026e2d9cd08c7f3"
+    },
+    "frameworks_av:fourteen": {
+      "version": "20240904.060800",
+      "revision": "b077714342cde2aeff6403a0ced08ced293c2e99",
+      "url": "https://github.com/PixelOS-AOSP/frameworks_av/commit/b077714342cde2aeff6403a0ced08ced293c2e99"
+    },
+    "frameworks_base:fourteen": {
+      "version": "20241014.164533",
+      "revision": "64b36318c4bae383d3df9531f46657e276d6bb98",
+      "url": "https://github.com/PixelOS-AOSP/frameworks_base/commit/64b36318c4bae383d3df9531f46657e276d6bb98"
+    },
+    "frameworks_native:fourteen": {
+      "version": "20240903.122533",
+      "revision": "f1e47af3e3ffb7fd832d8119e0a516b36391b065",
+      "url": "https://github.com/PixelOS-AOSP/frameworks_native/commit/f1e47af3e3ffb7fd832d8119e0a516b36391b065"
+    },
+    "frameworks_opt_telephony:fourteen": {
+      "version": "20240720.160649",
+      "revision": "40b26e83e217d3a2186edfd0138452ca4848f662",
+      "url": "https://github.com/PixelOS-AOSP/frameworks_opt_telephony/commit/40b26e83e217d3a2186edfd0138452ca4848f662"
+    },
+    "hardware_google_pixel-sepolicy:fourteen": {
+      "version": "20240623.222350",
+      "revision": "ca8889481f31f5d14d2d42ab6903c138b7e08531",
+      "url": "https://github.com/PixelOS-AOSP/hardware_google_pixel-sepolicy/commit/ca8889481f31f5d14d2d42ab6903c138b7e08531"
+    },
+    "packages_apps_ParanoidSense:fourteen": {
+      "version": "20240515.221824",
+      "revision": "00b32977882ac103eea0fe54f2931f3d5da9f482",
+      "url": "https://github.com/PixelOS-AOSP/packages_apps_ParanoidSense/commit/00b32977882ac103eea0fe54f2931f3d5da9f482"
+    },
+    "packages_apps_Settings:fourteen": {
+      "version": "20241014.164421",
+      "revision": "64141cf231d57a0796437c481750c0fb4d2626ef",
+      "url": "https://github.com/PixelOS-AOSP/packages_apps_Settings/commit/64141cf231d57a0796437c481750c0fb4d2626ef"
+    },
+    "packages_apps_TouchGestures:fourteen": {
+      "version": "20240402.173107",
+      "revision": "5294f537f8100d2f98e705fd54b55becd4ad76ec",
+      "url": "https://github.com/PixelOS-AOSP/packages_apps_TouchGestures/commit/5294f537f8100d2f98e705fd54b55becd4ad76ec"
+    },
+    "packages_apps_Updates:fourteen": {
+      "version": "20240721.113523",
+      "revision": "4083117bd1f9b374bcee1a8f0aad10ad418d1644",
+      "url": "https://github.com/PixelOS-AOSP/packages_apps_Updates/commit/4083117bd1f9b374bcee1a8f0aad10ad418d1644"
+    },
+    "packages_modules_Connectivity:fourteen": {
+      "version": "20240622.105120",
+      "revision": "6ede264d9b09ae4658faa8e31c5393b73f0e635f",
+      "url": "https://github.com/PixelOS-AOSP/packages_modules_Connectivity/commit/6ede264d9b09ae4658faa8e31c5393b73f0e635f"
+    },
+    "packages_services_Telecomm:fourteen": {
+      "version": "20240904.061254",
+      "revision": "5cb7f4d38a04d7547292e14acedd27b3910cbd9b",
+      "url": "https://github.com/PixelOS-AOSP/packages_services_Telecomm/commit/5cb7f4d38a04d7547292e14acedd27b3910cbd9b"
+    },
+    "system_core:fourteen": {
+      "version": "20240901.205722",
+      "revision": "bbc85ecea3071454053169b4c2a4bb5290ad2457",
+      "url": "https://github.com/PixelOS-AOSP/system_core/commit/bbc85ecea3071454053169b4c2a4bb5290ad2457"
+    },
+    "system_sepolicy:fourteen": {
+      "version": "20240901.210824",
+      "revision": "753888a5625d88eede965218bdf6007ea0182d2c",
+      "url": "https://github.com/PixelOS-AOSP/system_sepolicy/commit/753888a5625d88eede965218bdf6007ea0182d2c"
+    },
+    "system_update_engine:fourteen": {
+      "version": "20240623.220957",
+      "revision": "3291c227daaeacef3567cf736e5a10db13a7f7ce",
+      "url": "https://github.com/PixelOS-AOSP/system_update_engine/commit/3291c227daaeacef3567cf736e5a10db13a7f7ce"
+    },
+    "vendor_aosp:fourteen": {
+      "version": "20241019.211249",
+      "revision": "d35e6e641160d11c945a91e5ba2fa579627ffd6d",
+      "url": "https://github.com/PixelOS-AOSP/vendor_aosp/commit/d35e6e641160d11c945a91e5ba2fa579627ffd6d"
+    },
+    "vendor_custom-preference:fourteen": {
+      "version": "20240404.200642",
+      "revision": "aa9ebd40db20dd5fa871cdfab888bfc89129d98b",
+      "url": "https://github.com/PixelOS-AOSP/vendor_custom-preference/commit/aa9ebd40db20dd5fa871cdfab888bfc89129d98b"
+    },
+    "vendor_gms-14:fourteen": {
+      "version": "20240904",
+      "revision": "740d77954363bb2aac9589201f63e5e66922d8bc",
+      "url": "https://gitlab.com/pixelos-aosp/vendor_gms-14/-/commit/740d77954363bb2aac9589201f63e5e66922d8bc"
+    }
+  }
+}
