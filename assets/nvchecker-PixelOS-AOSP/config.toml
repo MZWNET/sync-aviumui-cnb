@@ -122,8 +122,3 @@ branch = "fourteen"
 source = "github"
 github = "PixelOS-AOSP/vendor_custom-preference"
 branch = "fourteen"
-
-["vendor_gms-14:fourteen"]
-source = "gitlab"
-gitlab = "PixelOS-AOSP/vendor_gms-14"
-branch = "fourteen"

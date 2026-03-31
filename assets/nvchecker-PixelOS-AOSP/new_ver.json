@@ -120,11 +120,6 @@
       "version": "20240404.200642",
       "revision": "aa9ebd40db20dd5fa871cdfab888bfc89129d98b",
       "url": "https://github.com/PixelOS-AOSP/vendor_custom-preference/commit/aa9ebd40db20dd5fa871cdfab888bfc89129d98b"
-    },
-    "vendor_gms-14:fourteen": {
-      "version": "20240904",
-      "revision": "740d77954363bb2aac9589201f63e5e66922d8bc",
-      "url": "https://gitlab.com/pixelos-aosp/vendor_gms-14/-/commit/740d77954363bb2aac9589201f63e5e66922d8bc"
     }
   }
 }
