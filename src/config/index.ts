@@ -1,11 +1,10 @@
 export const MANIFEST_URL = Bun.env.MANIFEST_URL;
-if (MANIFEST_URL == null || MANIFEST_URL === "") {
-  throw new Error("MANIFEST_URL is not set.");
-}
 
-// Ensure the URL doesn't have a trailing slash for consistent parsing
-const _manifestUrlStr = MANIFEST_URL.endsWith("/") ? MANIFEST_URL.slice(0, -1) : MANIFEST_URL;
-const _urlParts = _manifestUrlStr.split("/");
+// Allow MANIFEST_URL to be empty and let the main entry decide whether EXTRAS is sufficient.
+const _manifestUrlStr = MANIFEST_URL != null && MANIFEST_URL !== ""
+  ? (MANIFEST_URL.endsWith("/") ? MANIFEST_URL.slice(0, -1) : MANIFEST_URL)
+  : "";
+const _urlParts = _manifestUrlStr !== "" ? _manifestUrlStr.split("/") : [];
 
 export const MANIFEST_REPO = _urlParts.pop() ?? "";
 export const MANIFEST_OWNER = _urlParts.pop() ?? "";
