@@ -45,7 +45,7 @@ jobs:
       - name: Handle results
         id: results
         run: |
-          if [ $(cat out/change_repo.txt) == "" ]; then
+          if [ "$(cat out/change_repo.txt)" == "" ]; then
             echo "No repos have changes."
             echo "whether_sync=false" >> $GITHUB_OUTPUT
           else
@@ -53,7 +53,7 @@ jobs:
             echo "whether_sync=true" >> $GITHUB_OUTPUT
             echo "changed_repos=$(cat out/change_repo.txt)" >> $GITHUB_OUTPUT
           fi
-          if [ $(cat out/delete_repo.txt) == "" ]; then
+          if [ "$(cat out/delete_repo.txt)" == "" ]; then
             echo "No repos need to be deleted."
           else
             echo "Deleted repos: $(cat out/delete_repo.txt)"
