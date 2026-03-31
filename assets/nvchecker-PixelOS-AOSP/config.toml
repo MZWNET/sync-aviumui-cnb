@@ -53,11 +53,6 @@ source = "github"
 github = "PixelOS-AOSP/frameworks_av"
 branch = "fourteen"
 
-["frameworks_base:fourteen"]
-source = "github"
-github = "PixelOS-AOSP/frameworks_base"
-branch = "fourteen"
-
 ["frameworks_native:fourteen"]
 source = "github"
 github = "PixelOS-AOSP/frameworks_native"

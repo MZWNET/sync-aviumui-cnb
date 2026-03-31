@@ -51,11 +51,6 @@
       "revision": "b077714342cde2aeff6403a0ced08ced293c2e99",
       "url": "https://github.com/PixelOS-AOSP/frameworks_av/commit/b077714342cde2aeff6403a0ced08ced293c2e99"
     },
-    "frameworks_base:fourteen": {
-      "version": "20241014.164533",
-      "revision": "64b36318c4bae383d3df9531f46657e276d6bb98",
-      "url": "https://github.com/PixelOS-AOSP/frameworks_base/commit/64b36318c4bae383d3df9531f46657e276d6bb98"
-    },
     "frameworks_native:fourteen": {
       "version": "20240903.122533",
       "revision": "f1e47af3e3ffb7fd832d8119e0a516b36391b065",
