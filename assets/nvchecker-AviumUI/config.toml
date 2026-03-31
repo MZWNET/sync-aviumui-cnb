@@ -3,218 +3,237 @@ oldver = "old_ver.json"
 newver = "new_ver.json"
 keyfile = "keyfile.toml"
 
-[android_art]
+["android_art:avium-16.2"]
 source = "github"
 github = "AviumUI/android_art"
+branch = "avium-16.2"
 
-[android_bootable_recovery]
+["android_bootable_recovery:avium-16.2"]
 source = "github"
 github = "AviumUI/android_bootable_recovery"
+branch = "avium-16.2"
 
-[android_build]
+["android_build:avium-16.2"]
 source = "github"
 github = "AviumUI/android_build"
+branch = "avium-16.2"
 
-[android_build_soong]
+["android_build_soong:avium-16.2"]
 source = "github"
 github = "AviumUI/android_build_soong"
+branch = "avium-16.2"
 
-[android_device_lineage_sepolicy]
+["android_device_lineage_sepolicy:avium-16.2"]
 source = "github"
 github = "AviumUI/android_device_lineage_sepolicy"
+branch = "avium-16.2"
 
-[android_external_blurview]
-source = "github"
-github = "AviumUI/android_external_blurview"
-
-[android_frameworks_av]
+["android_frameworks_av:avium-16.2"]
 source = "github"
 github = "AviumUI/android_frameworks_av"
+branch = "avium-16.2"
 
-[android_frameworks_base]
+["android_frameworks_base:avium-16.2"]
 source = "github"
 github = "AviumUI/android_frameworks_base"
+branch = "avium-16.2"
 
-[android_frameworks_libs_systemui]
+["android_frameworks_libs_systemui:avium-16.2"]
 source = "github"
 github = "AviumUI/android_frameworks_libs_systemui"
+branch = "avium-16.2"
 
-[android_frameworks_native]
+["android_frameworks_native:avium-16.2"]
 source = "github"
 github = "AviumUI/android_frameworks_native"
+branch = "avium-16.2"
 
-[android_frameworks_opt_telephony]
+["android_frameworks_opt_telephony:avium-16.2"]
 source = "github"
 github = "AviumUI/android_frameworks_opt_telephony"
+branch = "avium-16.2"
 
-[android_lineage-sdk]
+["android_lineage-sdk:avium-16.2"]
 source = "github"
 github = "AviumUI/android_lineage-sdk"
+branch = "avium-16.2"
 
-[android_manifests]
+["android_manifests:avium-16.2"]
 source = "github"
 github = "AviumUI/android_manifests"
+branch = "avium-16.2"
 
-[android_packages_apps_AviumFreeWindow]
+["android_packages_apps_AviumFreeWindow:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_AviumFreeWindow"
+branch = "avium-16.2"
 
-[android_packages_apps_AviumLockscreenEdit]
+["android_packages_apps_AviumLockscreenEdit:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_AviumLockscreenEdit"
+branch = "avium-16.2"
 
-[android_packages_apps_AviumLyricBarCore]
+["android_packages_apps_AviumLyricBarCore:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_AviumLyricBarCore"
+branch = "avium-16.2"
 
-[android_packages_apps_AviumSetup]
-source = "github"
-github = "AviumUI/android_packages_apps_AviumSetup"
-
-[android_packages_apps_AviumSystemUIEX]
+["android_packages_apps_AviumSystemUIEX:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_AviumSystemUIEX"
+branch = "avium-16.2"
 
-[android_packages_apps_AviumUseful]
+["android_packages_apps_AviumUseful:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_AviumUseful"
+branch = "avium-16.2"
 
-[android_packages_apps_BtHelper]
+["android_packages_apps_BtHelper:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_BtHelper"
+branch = "avium-16.2"
 
-[android_packages_apps_CatShare]
+["android_packages_apps_CatShare:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_CatShare"
+branch = "avium-16.2"
 
-[android_packages_apps_ColumbusService]
+["android_packages_apps_ColumbusService:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_ColumbusService"
+branch = "avium-16.2"
 
-[android_packages_apps_DepthWallpaperHelper]
+["android_packages_apps_DepthWallpaperHelper:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_DepthWallpaperHelper"
+branch = "avium-16.2"
 
-[android_packages_apps_ExthmUseful]
-source = "github"
-github = "AviumUI/android_packages_apps_ExthmUseful"
-
-[android_packages_apps_FeatureSettings]
+["android_packages_apps_FeatureSettings:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_FeatureSettings"
+branch = "avium-16.2"
 
-[android_packages_apps_GameSpace]
+["android_packages_apps_GameSpace:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_GameSpace"
+branch = "avium-16.2"
 
-[android_packages_apps_Launcher3]
+["android_packages_apps_Launcher3:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_Launcher3"
+branch = "avium-16.2"
 
-[android_packages_apps_LineageParts]
+["android_packages_apps_LineageParts:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_LineageParts"
+branch = "avium-16.2"
 
-[android_packages_apps_Messaging]
+["android_packages_apps_Messaging:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_Messaging"
+branch = "avium-16.2"
 
-[android_packages_apps_MoonOCR]
-source = "github"
-github = "AviumUI/android_packages_apps_MoonOCR"
-
-[android_packages_apps_MoonWidget]
+["android_packages_apps_MoonWidget:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_MoonWidget"
+branch = "avium-16.2"
 
-[android_packages_apps_Nfc]
-source = "github"
-github = "AviumUI/android_packages_apps_Nfc"
-
-[android_packages_apps_Note]
+["android_packages_apps_Note:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_Note"
+branch = "avium-16.2"
 
-[android_packages_apps_OmniJaws]
+["android_packages_apps_OmniJaws:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_OmniJaws"
+branch = "avium-16.2"
 
-[android_packages_apps_ParanoidSense]
+["android_packages_apps_ParanoidSense:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_ParanoidSense"
+branch = "avium-16.2"
 
-[android_packages_apps_PocketMode]
-source = "github"
-github = "AviumUI/android_packages_apps_PocketMode"
-
-[android_packages_apps_Settings]
+["android_packages_apps_Settings:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_Settings"
+branch = "avium-16.2"
 
-[android_packages_apps_SetupWizard]
+["android_packages_apps_SetupWizard:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_SetupWizard"
+branch = "avium-16.2"
 
-[android_packages_apps_Starmoment]
+["android_packages_apps_Starmoment:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_Starmoment"
+branch = "avium-16.2"
 
-[android_packages_apps_SystemUITools]
+["android_packages_apps_SystemUITools:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_SystemUITools"
+branch = "avium-16.2"
 
-[android_packages_apps_Trebuchet]
-source = "github"
-github = "AviumUI/android_packages_apps_Trebuchet"
-
-[android_packages_apps_Updater]
+["android_packages_apps_Updater:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_Updater"
+branch = "avium-16.2"
 
-[android_packages_apps_Via]
+["android_packages_apps_Via:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_Via"
+branch = "avium-16.2"
 
-[android_packages_modules_Nfc]
+["android_packages_modules_Nfc:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_modules_Nfc"
+branch = "avium-16.2"
 
-[android_packages_overlays_Lineage]
+["android_packages_overlays_Lineage:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_overlays_Lineage"
+branch = "avium-16.2"
 
-[android_packages_resources_devicesettings]
+["android_packages_resources_devicesettings:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_resources_devicesettings"
+branch = "avium-16.2"
 
-[android_system_core]
+["android_system_core:avium-16.2"]
 source = "github"
 github = "AviumUI/android_system_core"
+branch = "avium-16.2"
 
-[android_system_sepolicy]
+["android_system_sepolicy:avium-16.2"]
 source = "github"
 github = "AviumUI/android_system_sepolicy"
+branch = "avium-16.2"
 
-[android_vendor_avium]
+["android_vendor_avium:avium-16.2"]
 source = "github"
 github = "AviumUI/android_vendor_avium"
+branch = "avium-16.2"
 
-[android_vendor_lineage]
+["android_vendor_lineage:avium-16.2"]
 source = "github"
 github = "AviumUI/android_vendor_lineage"
+branch = "avium-16.2"
 
-[packages_apps_AviumSetup]
+["packages_apps_AviumSetup:avium-16.2"]
 source = "github"
 github = "AviumUI/packages_apps_AviumSetup"
+branch = "avium-16.2"
 
-[proprietary_vendor_pixel_clocks]
+["proprietary_vendor_pixel_clocks:avium-16.2"]
 source = "github"
 github = "AviumUI/proprietary_vendor_pixel_clocks"
+branch = "avium-16.2"
 
-[proprietary_vendor_pixel_gms]
+["proprietary_vendor_pixel_gms:avium-16.2"]
 source = "github"
 github = "AviumUI/proprietary_vendor_pixel_gms"
+branch = "avium-16.2"
 
-[proprietary_vendor_pixel_gsans]
+["proprietary_vendor_pixel_gsans:avium-16.2"]
 source = "github"
 github = "AviumUI/proprietary_vendor_pixel_gsans"
+branch = "avium-16.2"

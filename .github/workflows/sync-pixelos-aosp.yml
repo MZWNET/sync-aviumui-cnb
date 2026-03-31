@@ -1,4 +1,4 @@
-name: Sync AviumUI org repos to CNB
+name: Sync PixelOS-AOSP org repos to CNB
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -32,14 +32,14 @@ jobs:
 
       - name: Scan needed repos
         env:
-          REPO_OWNER: AviumUI
-          MANIFEST_URL: https://github.com/AviumUI/android_manifests
+          REPO_OWNER: PixelOS-AOSP
+          MANIFEST_URL: "https://github.com/PixelOS-AOSP/manifest"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
           CNB_TOKEN: ${{ secrets.CNB_TOKEN }}
-          BRANCH: avium-16.2
-          EXTRAS: "proprietary_vendor_pixel_clocks, proprietary_vendor_pixel_gms, proprietary_vendor_pixel_gsans"
-          CNB_ORG: MZWNET/AviumUI
+          BRANCH: fourteen
+          EXTRAS: ""
+          CNB_ORG: MZWNET/PixelOS-AOSP
         run: bun run start
 
       - name: Handle results
@@ -61,7 +61,7 @@ jobs:
 
       - name: Commit
         run: |
-          git add assets/nvchecker-AviumUI/
+          git add assets/nvchecker-PixelOS-AOSP/
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -am "update[bot]: scan changes at $(date "+%Y-%m-%d %H:%M:%S")" || true
@@ -71,17 +71,17 @@ jobs:
         with:
           branch: ${{ github.ref }}
 
-      - name: Sync AviumUI repos to CNB
+      - name: Sync PixelOS-AOSP repos to CNB
         if: steps.results.outputs.whether_sync == 'true'
         uses: MZWNET/org-snapshot-mirror@master
         with:
-          source_org: AviumUI
+          source_org: PixelOS-AOSP
           source_token: ${{ secrets.GITHUB_TOKEN }}
           source_repos: ${{ steps.results.outputs.changed_repos }}
-          target_url: "https://cnb.cool/MZWNET/AviumUI/"
+          target_url: "https://cnb.cool/MZWNET/PixelOS-AOSP/"
           target_username: MZWNET
           target_password: ${{ secrets.CNB_TOKEN }}
           target_platform: cnb
           cnb_api_token: ${{ secrets.CNB_TOKEN }}
-          cnb_org_path: MZWNET/AviumUI
+          cnb_org_path: MZWNET/PixelOS-AOSP
           max_parallel: "5"
