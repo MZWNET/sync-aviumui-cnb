@@ -1,4 +1,4 @@
-import { GITHUB_TOKEN, GITLAB_TOKEN, MANIFEST_OWNER } from "@/src/config";
+import { GITHUB_TOKEN, GITLAB_TOKEN, NVCHECKER_OWNER } from "@/src/config";
 
 const TRAILING_SLASH_RE = /\/$/;
 
@@ -45,13 +45,14 @@ export function generateKeyfile(): string {
 }
 
 export async function runNvchecker(): Promise<void> {
-  const configPath = `assets/nvchecker-${MANIFEST_OWNER}/config.toml`;
+  const nvcheckerDir = `assets/nvchecker-${NVCHECKER_OWNER}`;
+  const configPath = `${nvcheckerDir}/config.toml`;
 
   console.log("\nRunning nvchecker...");
   await Bun.$`nvchecker -c ${configPath}`;
 
   console.log("Running nvcmp...");
-  await Bun.$`nvcmp -c ${configPath} -j > assets/nvchecker-${MANIFEST_OWNER}/changes.json`;
+  await Bun.$`nvcmp -c ${configPath} -j > ${nvcheckerDir}/changes.json`;
 
   console.log("Running nvtake...");
   await Bun.$`nvtake -c ${configPath} --all`;
@@ -60,7 +61,7 @@ export async function runNvchecker(): Promise<void> {
 }
 
 export async function getChangedRepos(): Promise<string[]> {
-  const content = await Bun.file(`assets/nvchecker-${MANIFEST_OWNER}/changes.json`).text();
+  const content = await Bun.file(`assets/nvchecker-${NVCHECKER_OWNER}/changes.json`).text();
   const changes = JSON.parse(content) as { delta: string; name: string }[];
   return changes
     .filter(c => c.delta === "old" || c.delta === "new" || c.delta === "added")

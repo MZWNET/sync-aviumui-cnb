@@ -1,4 +1,4 @@
-import { BRANCH, EXTRAS, MANIFEST_OWNER, MANIFEST_REPO, MANIFEST_URL, REPO_OWNER } from "@/src/config";
+import { BRANCH, EXTRAS, MANIFEST_OWNER, MANIFEST_REPO, MANIFEST_URL, NVCHECKER_OWNER, REPO_OWNER } from "@/src/config";
 import { getCnbRepos } from "@/src/services/cnb";
 import { getBranches, getFileContent } from "@/src/services/github";
 import {
@@ -82,11 +82,13 @@ async function main(): Promise<void> {
   await Bun.write("out/delete_repo.txt", toDelete.join(", "));
 
   const nvcheckerConfig = generateNvcheckerConfig(Array.from(githubProjects.values()));
-  await Bun.write(`assets/nvchecker-${MANIFEST_OWNER}/config.toml`, nvcheckerConfig);
-  await Bun.write(`assets/nvchecker-${MANIFEST_OWNER}/keyfile.toml`, generateKeyfile());
+  const nvcheckerDir = `assets/nvchecker-${NVCHECKER_OWNER}`;
+  await Bun.$`mkdir -p ${nvcheckerDir}`;
+  await Bun.write(`${nvcheckerDir}/config.toml`, nvcheckerConfig);
+  await Bun.write(`${nvcheckerDir}/keyfile.toml`, generateKeyfile());
 
   console.log(`\nTo delete: ${toDelete.length} repos`);
-  console.log(`nvchecker config written to assets/nvchecker-${MANIFEST_OWNER}/config.toml`);
+  console.log(`nvchecker config written to ${nvcheckerDir}/config.toml`);
 
   await runNvchecker();
 

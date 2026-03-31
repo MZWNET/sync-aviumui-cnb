@@ -10,6 +10,9 @@ export const MANIFEST_REPO = _urlParts.pop() ?? "";
 export const MANIFEST_OWNER = _urlParts.pop() ?? "";
 
 export const REPO_OWNER = Bun.env.REPO_OWNER;
+export const NVCHECKER_OWNER = MANIFEST_OWNER !== ""
+  ? MANIFEST_OWNER
+  : (REPO_OWNER != null && REPO_OWNER !== "" ? REPO_OWNER : "");
 
 export const FILE_PATH = "snippets/avium.xml";
 
