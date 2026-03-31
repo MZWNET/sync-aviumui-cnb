@@ -9,6 +9,7 @@ newver = "new_ver.json"
 keyfile = "keyfile.toml"
 `;
   const entries = repos
+    .filter(repo => repo.name !== "frameworks_base")
     .toSorted((a, b) => a.name.localeCompare(b.name))
     .map((repo) => {
       const { name, url, branch } = repo;
