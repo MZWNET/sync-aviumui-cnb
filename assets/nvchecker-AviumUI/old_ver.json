@@ -67,9 +67,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_AviumFreeWindow/commit/33b752c5642c59675f6e2d94ea6940a652ec4d78"
     },
     "android_packages_apps_AviumLockscreenEdit:avium-16.2": {
-      "version": "20260318.135949",
-      "revision": "d8e6fc33356b739b54445b65f11722e5f6cf1669",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/d8e6fc33356b739b54445b65f11722e5f6cf1669"
+      "version": "20260412.124549",
+      "revision": "39a3bd85f44faf5c3342f249b2eda7a18511ed69",
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/39a3bd85f44faf5c3342f249b2eda7a18511ed69"
     },
     "android_packages_apps_AviumLyricBarCore:avium-16.2": {
       "version": "20260303.100856",
@@ -77,14 +77,14 @@
       "url": "https://github.com/AviumUI/android_packages_apps_AviumLyricBarCore/commit/57bb8a51de9243085afd257dc386ffcedcc5a44d"
     },
     "android_packages_apps_AviumSystemUIEX:avium-16.2": {
-      "version": "20260314.055108",
-      "revision": "ddb82cc4c687240781578cb63af74387dc407389",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/ddb82cc4c687240781578cb63af74387dc407389"
+      "version": "20260412.100441",
+      "revision": "c3fafc683445d3bc42bf8d42d48e0137fe8f0f9b",
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/c3fafc683445d3bc42bf8d42d48e0137fe8f0f9b"
     },
     "android_packages_apps_AviumUseful:avium-16.2": {
-      "version": "20260320.110600",
-      "revision": "4a7f24a6d14ae55d93372035a6c6b991b699ee13",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumUseful/commit/4a7f24a6d14ae55d93372035a6c6b991b699ee13"
+      "version": "20260412.093137",
+      "revision": "d023567cb06318a231b28f46ac22f5495167657b",
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumUseful/commit/d023567cb06318a231b28f46ac22f5495167657b"
     },
     "android_packages_apps_BtHelper:avium-16.2": {
       "version": "20250124.053503",
@@ -107,9 +107,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_DepthWallpaperHelper/commit/fb98f13b30ee0d945979688c27f9db9115e3fd1d"
     },
     "android_packages_apps_FeatureSettings:avium-16.2": {
-      "version": "20260319.140448",
-      "revision": "0d76827097bf9572e3646790eae707d06ed08371",
-      "url": "https://github.com/AviumUI/android_packages_apps_FeatureSettings/commit/0d76827097bf9572e3646790eae707d06ed08371"
+      "version": "20260412.092425",
+      "revision": "cd64dcc368b7417fe917446dad5d8a6405fdee29",
+      "url": "https://github.com/AviumUI/android_packages_apps_FeatureSettings/commit/cd64dcc368b7417fe917446dad5d8a6405fdee29"
     },
     "android_packages_apps_GameSpace:avium-16.2": {
       "version": "20250901.104832",
