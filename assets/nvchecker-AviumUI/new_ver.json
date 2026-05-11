@@ -32,9 +32,9 @@
       "url": "https://github.com/AviumUI/android_frameworks_av/commit/1948910c5c366af35d71f836e1a10a390f6b018e"
     },
     "android_frameworks_base:avium-16.2": {
-      "version": "20260425.131732",
-      "revision": "a3c3f306682bbd549fa67ebaaed5747508f6b8a5",
-      "url": "https://github.com/AviumUI/android_frameworks_base/commit/a3c3f306682bbd549fa67ebaaed5747508f6b8a5"
+      "version": "20260510.071509",
+      "revision": "17fab06c156d3b5a4b223e362c781f08cde192cb",
+      "url": "https://github.com/AviumUI/android_frameworks_base/commit/17fab06c156d3b5a4b223e362c781f08cde192cb"
     },
     "android_frameworks_libs_systemui:avium-16.2": {
       "version": "20260126.135018",
