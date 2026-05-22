@@ -132,9 +132,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_Messaging/commit/b5e2850b4e94e311dfd60e034e5fe4d42270e07f"
     },
     "android_packages_apps_MoonWidget:avium-16.2": {
-      "version": "20260502.084329",
-      "revision": "216113edbeb3ab54f4466e4901a7915001cb062f",
-      "url": "https://github.com/AviumUI/android_packages_apps_MoonWidget/commit/216113edbeb3ab54f4466e4901a7915001cb062f"
+      "version": "20260521.100338",
+      "revision": "e60eca5de3232ea9e5cb91a53a0bd3c0afa82ed9",
+      "url": "https://github.com/AviumUI/android_packages_apps_MoonWidget/commit/e60eca5de3232ea9e5cb91a53a0bd3c0afa82ed9"
     },
     "android_packages_apps_Note:avium-16.2": {
       "version": "20260430.160137",
@@ -182,9 +182,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_Via/commit/0f904563c36aa667adffdc6fd7d73a3eaa73e19e"
     },
     "android_packages_modules_Nfc:avium-16.2": {
-      "version": "20260118.043520",
-      "revision": "ac76c87d5cab594c85188c2adbad567496164ca3",
-      "url": "https://github.com/AviumUI/android_packages_modules_Nfc/commit/ac76c87d5cab594c85188c2adbad567496164ca3"
+      "version": "20260521.141933",
+      "revision": "72a464d3911ec65c92a95dbd9f63200558fabe69",
+      "url": "https://github.com/AviumUI/android_packages_modules_Nfc/commit/72a464d3911ec65c92a95dbd9f63200558fabe69"
     },
     "android_packages_overlays_Lineage:avium-16.2": {
       "version": "20260311.171048",
