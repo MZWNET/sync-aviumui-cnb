@@ -92,9 +92,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_BtHelper/commit/4c56078ed71e5fefdf5ccf3eea4c137588782fed"
     },
     "android_packages_apps_CatShare:avium-16.2": {
-      "version": "20260425.092629",
-      "revision": "be3eb3f81e5dc8578e00a0c03051a57ef38f7f08",
-      "url": "https://github.com/AviumUI/android_packages_apps_CatShare/commit/be3eb3f81e5dc8578e00a0c03051a57ef38f7f08"
+      "version": "20260522.131256",
+      "revision": "04a9cc2efd225130f194aa057a88875bb4e964a2",
+      "url": "https://github.com/AviumUI/android_packages_apps_CatShare/commit/04a9cc2efd225130f194aa057a88875bb4e964a2"
     },
     "android_packages_apps_ColumbusService:avium-16.2": {
       "version": "20260212.152008",
@@ -137,9 +137,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_MoonWidget/commit/e60eca5de3232ea9e5cb91a53a0bd3c0afa82ed9"
     },
     "android_packages_apps_Note:avium-16.2": {
-      "version": "20260430.160137",
-      "revision": "445cf98b79ab5affcfa52b55bce34cd5413450d6",
-      "url": "https://github.com/AviumUI/android_packages_apps_Note/commit/445cf98b79ab5affcfa52b55bce34cd5413450d6"
+      "version": "20260522.135954",
+      "revision": "4f021fbaad013999e76daae61f3759d1b25710c3",
+      "url": "https://github.com/AviumUI/android_packages_apps_Note/commit/4f021fbaad013999e76daae61f3759d1b25710c3"
     },
     "android_packages_apps_OmniJaws:avium-16.2": {
       "version": "20250914.200253",
@@ -162,9 +162,9 @@
       "url": "https://github.com/AviumUI/android_packages_apps_SetupWizard/commit/ef3e9aee055caf168a0a26ef2bba47fc19c34655"
     },
     "android_packages_apps_Starmoment:avium-16.2": {
-      "version": "20260305.045642",
-      "revision": "238b696f33847c4b7d37edaa9f1238e0d07c7a24",
-      "url": "https://github.com/AviumUI/android_packages_apps_Starmoment/commit/238b696f33847c4b7d37edaa9f1238e0d07c7a24"
+      "version": "20260522.135938",
+      "revision": "2c95a6a77040d47db2f0667af894e8ba6c9bf498",
+      "url": "https://github.com/AviumUI/android_packages_apps_Starmoment/commit/2c95a6a77040d47db2f0667af894e8ba6c9bf498"
     },
     "android_packages_apps_SystemUITools:avium-16.2": {
       "version": "20260121.084737",
