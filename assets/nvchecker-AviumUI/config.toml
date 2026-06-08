@@ -78,6 +78,11 @@ source = "github"
 github = "AviumUI/android_packages_apps_AviumLyricBarCore"
 branch = "avium-16.2"
 
+["android_packages_apps_AviumSetup:avium-16.2"]
+source = "github"
+github = "AviumUI/android_packages_apps_AviumSetup"
+branch = "avium-16.2"
+
 ["android_packages_apps_AviumSystemUIEX:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_AviumSystemUIEX"
@@ -216,11 +221,6 @@ branch = "avium-16.2"
 ["android_vendor_lineage:avium-16.2"]
 source = "github"
 github = "AviumUI/android_vendor_lineage"
-branch = "avium-16.2"
-
-["packages_apps_AviumSetup:avium-16.2"]
-source = "github"
-github = "AviumUI/packages_apps_AviumSetup"
 branch = "avium-16.2"
 
 ["proprietary_vendor_pixel_clocks:avium-16.2"]
