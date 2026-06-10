@@ -53,6 +53,11 @@ source = "github"
 github = "AviumUI/android_frameworks_opt_telephony"
 branch = "avium-16.2"
 
+["android_hardware_qcom_display:avium-16.2-caf-sm8750"]
+source = "github"
+github = "AviumUI/android_hardware_qcom_display"
+branch = "avium-16.2-caf-sm8750"
+
 ["android_lineage-sdk:avium-16.2"]
 source = "github"
 github = "AviumUI/android_lineage-sdk"
@@ -158,6 +163,11 @@ source = "github"
 github = "AviumUI/android_packages_apps_ParanoidSense"
 branch = "avium-16.2"
 
+["android_packages_apps_ScreenshotEdit:avium-16.2"]
+source = "github"
+github = "AviumUI/android_packages_apps_ScreenshotEdit"
+branch = "avium-16.2"
+
 ["android_packages_apps_Settings:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_apps_Settings"
@@ -208,6 +218,11 @@ source = "github"
 github = "AviumUI/android_system_core"
 branch = "avium-16.2"
 
+["android_system_security:avium-16.2"]
+source = "github"
+github = "AviumUI/android_system_security"
+branch = "avium-16.2"
+
 ["android_system_sepolicy:avium-16.2"]
 source = "github"
 github = "AviumUI/android_system_sepolicy"
@@ -222,6 +237,11 @@ branch = "avium-16.2"
 source = "github"
 github = "AviumUI/android_vendor_lineage"
 branch = "avium-16.2"
+
+["android_vendor_qcom_opensource_display-core:avium-16.2-caf-sm8750"]
+source = "github"
+github = "AviumUI/android_vendor_qcom_opensource_display-core"
+branch = "avium-16.2-caf-sm8750"
 
 ["proprietary_vendor_pixel_clocks:avium-16.2"]
 source = "github"
