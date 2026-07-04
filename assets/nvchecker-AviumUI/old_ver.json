@@ -62,9 +62,9 @@
       "url": "https://github.com/AviumUI/android_lineage-sdk/commit/8c6692be5936932eeeeac9648ffc62f06fd52764"
     },
     "android_manifests:avium-16.2": {
-      "version": "20260609.120555",
-      "revision": "aac2d17336829c3ec7be865a8ce203b15a640994",
-      "url": "https://github.com/AviumUI/android_manifests/commit/aac2d17336829c3ec7be865a8ce203b15a640994"
+      "version": "20260703.095234",
+      "revision": "a8a97480a2f33713dee767c41212e5a852c26cfb",
+      "url": "https://github.com/AviumUI/android_manifests/commit/a8a97480a2f33713dee767c41212e5a852c26cfb"
     },
     "android_packages_apps_AviumFreeWindow:avium-16.2": {
       "version": "20260425.124051",
