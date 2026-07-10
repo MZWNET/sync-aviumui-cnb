@@ -17,9 +17,9 @@
       "url": "https://github.com/AviumUI/android_build/commit/b404a57290647f7970db489301efd4f241ce4691"
     },
     "android_build_soong:avium-16.2": {
-      "version": "20260313.170612",
-      "revision": "e6687f90d04bdea602caa9d021a0489e10ee32fb",
-      "url": "https://github.com/AviumUI/android_build_soong/commit/e6687f90d04bdea602caa9d021a0489e10ee32fb"
+      "version": "20260708.084411",
+      "revision": "2e5b2070e5c672dce237ef0118e1d7bb43f6773d",
+      "url": "https://github.com/AviumUI/android_build_soong/commit/2e5b2070e5c672dce237ef0118e1d7bb43f6773d"
     },
     "android_device_lineage_sepolicy:avium-16.2": {
       "version": "20260614.095817",
@@ -207,9 +207,9 @@
       "url": "https://github.com/AviumUI/android_packages_overlays_Lineage/commit/806dd920c3735ead72bb1eb67049c46cb3597d2d"
     },
     "android_packages_resources_devicesettings:avium-16.2": {
-      "version": "20260320.110200",
-      "revision": "67307d433b2abc89dea337332e48effee96a25ca",
-      "url": "https://github.com/AviumUI/android_packages_resources_devicesettings/commit/67307d433b2abc89dea337332e48effee96a25ca"
+      "version": "20260708.165107",
+      "revision": "4a9d53c5906a17f150d49908a876fe102eb14589",
+      "url": "https://github.com/AviumUI/android_packages_resources_devicesettings/commit/4a9d53c5906a17f150d49908a876fe102eb14589"
     },
     "android_system_core:avium-16.2": {
       "version": "20260607.101815",
