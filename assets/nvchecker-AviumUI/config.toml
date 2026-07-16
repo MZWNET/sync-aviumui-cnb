@@ -203,6 +203,11 @@ source = "github"
 github = "AviumUI/android_packages_modules_Nfc"
 branch = "avium-16.2"
 
+["android_packages_modules_Wifi:avium-16.2"]
+source = "github"
+github = "AviumUI/android_packages_modules_Wifi"
+branch = "avium-16.2"
+
 ["android_packages_overlays_Lineage:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_overlays_Lineage"
