@@ -7,9 +7,9 @@
       "url": "https://github.com/LineageOS/android_device_oneplus_dodge/commit/47293f15b4a25bdc1efc061222a7f8dd6550a9e8"
     },
     "android_device_oneplus_sm8750-common:lineage-23.2": {
-      "version": "20260703.230222",
-      "revision": "61b2cfeb74e116c3da014ee2eca36897a2f403d8",
-      "url": "https://github.com/LineageOS/android_device_oneplus_sm8750-common/commit/61b2cfeb74e116c3da014ee2eca36897a2f403d8"
+      "version": "20260718.153048",
+      "revision": "1e303524045f4184f43a80b90350c7167044240f",
+      "url": "https://github.com/LineageOS/android_device_oneplus_sm8750-common/commit/1e303524045f4184f43a80b90350c7167044240f"
     },
     "android_hardware_oplus:lineage-23.2": {
       "version": "20260704.200547",
@@ -22,14 +22,14 @@
       "url": "https://github.com/LineageOS/android_kernel_oneplus_sm8750-devicetrees/commit/f287404c72b51928184d7abb034148b0e83a25b4"
     },
     "android_kernel_oneplus_sm8750-modules:lineage-23.2": {
-      "version": "20260425.111247",
-      "revision": "960ae9a60627e4f9ba1e3200ef94387d7badb7b4",
-      "url": "https://github.com/LineageOS/android_kernel_oneplus_sm8750-modules/commit/960ae9a60627e4f9ba1e3200ef94387d7badb7b4"
+      "version": "20260718.152925",
+      "revision": "80bfcc1c0a4b97ce3945e431807f4cf9de054613",
+      "url": "https://github.com/LineageOS/android_kernel_oneplus_sm8750-modules/commit/80bfcc1c0a4b97ce3945e431807f4cf9de054613"
     },
     "android_kernel_oneplus_sm8750:lineage-23.2": {
-      "version": "20260708.212120",
-      "revision": "bb5a8e4d10bda63952410af436daace2659e98dd",
-      "url": "https://github.com/LineageOS/android_kernel_oneplus_sm8750/commit/bb5a8e4d10bda63952410af436daace2659e98dd"
+      "version": "20260718.131641",
+      "revision": "e9fac9cef9c6623f93fc0cab79e453736e99cbbe",
+      "url": "https://github.com/LineageOS/android_kernel_oneplus_sm8750/commit/e9fac9cef9c6623f93fc0cab79e453736e99cbbe"
     }
   }
 }
