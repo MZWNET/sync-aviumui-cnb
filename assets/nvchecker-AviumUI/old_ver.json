@@ -4,247 +4,296 @@
     "android_art:avium-16.2": {
       "version": "20260607.070256",
       "revision": "37b48c57cd4ce46ed13de6005568ef3e3538384e",
-      "url": "https://github.com/AviumUI/android_art/commit/37b48c57cd4ce46ed13de6005568ef3e3538384e"
+      "url": "https://github.com/AviumUI/android_art/commit/37b48c57cd4ce46ed13de6005568ef3e3538384e",
+      "revision_creation_time": "2026-06-07T07:02:56Z"
     },
     "android_bootable_recovery:avium-16.2": {
       "version": "20260517.051634",
       "revision": "4bc289da84d66a0e40c181eb86804d359c8c63f0",
-      "url": "https://github.com/AviumUI/android_bootable_recovery/commit/4bc289da84d66a0e40c181eb86804d359c8c63f0"
+      "url": "https://github.com/AviumUI/android_bootable_recovery/commit/4bc289da84d66a0e40c181eb86804d359c8c63f0",
+      "revision_creation_time": "2026-05-17T05:16:34Z"
     },
     "android_build:avium-16.2": {
       "version": "20260212.161145",
       "revision": "b404a57290647f7970db489301efd4f241ce4691",
-      "url": "https://github.com/AviumUI/android_build/commit/b404a57290647f7970db489301efd4f241ce4691"
+      "url": "https://github.com/AviumUI/android_build/commit/b404a57290647f7970db489301efd4f241ce4691",
+      "revision_creation_time": "2026-02-12T16:11:45Z"
     },
     "android_build_soong:avium-16.2": {
       "version": "20260708.084411",
       "revision": "2e5b2070e5c672dce237ef0118e1d7bb43f6773d",
-      "url": "https://github.com/AviumUI/android_build_soong/commit/2e5b2070e5c672dce237ef0118e1d7bb43f6773d"
+      "url": "https://github.com/AviumUI/android_build_soong/commit/2e5b2070e5c672dce237ef0118e1d7bb43f6773d",
+      "revision_creation_time": "2026-07-08T08:44:11Z"
     },
     "android_device_lineage_sepolicy:avium-16.2": {
       "version": "20260614.095817",
       "revision": "20220286342d89b6b169faa09fb20bdeac937d79",
-      "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/20220286342d89b6b169faa09fb20bdeac937d79"
+      "url": "https://github.com/AviumUI/android_device_lineage_sepolicy/commit/20220286342d89b6b169faa09fb20bdeac937d79",
+      "revision_creation_time": "2026-06-14T09:58:17Z"
     },
     "android_frameworks_av:avium-16.2": {
       "version": "20260607.064828",
       "revision": "e40c0b45225070d717393301c5e209a7ff03c46b",
-      "url": "https://github.com/AviumUI/android_frameworks_av/commit/e40c0b45225070d717393301c5e209a7ff03c46b"
+      "url": "https://github.com/AviumUI/android_frameworks_av/commit/e40c0b45225070d717393301c5e209a7ff03c46b",
+      "revision_creation_time": "2026-06-07T06:48:28Z"
     },
     "android_frameworks_base:avium-16.2": {
       "version": "20260620.140221",
       "revision": "95a1d4ff3979ee0abc48feca0577817d3024a436",
-      "url": "https://github.com/AviumUI/android_frameworks_base/commit/95a1d4ff3979ee0abc48feca0577817d3024a436"
+      "url": "https://github.com/AviumUI/android_frameworks_base/commit/95a1d4ff3979ee0abc48feca0577817d3024a436",
+      "revision_creation_time": "2026-06-20T14:02:21Z"
     },
     "android_frameworks_libs_systemui:avium-16.2": {
       "version": "20260126.135018",
       "revision": "0059ac58984dab95c13f16474e796bcc4cd73aed",
-      "url": "https://github.com/AviumUI/android_frameworks_libs_systemui/commit/0059ac58984dab95c13f16474e796bcc4cd73aed"
+      "url": "https://github.com/AviumUI/android_frameworks_libs_systemui/commit/0059ac58984dab95c13f16474e796bcc4cd73aed",
+      "revision_creation_time": "2026-01-26T13:50:18Z"
     },
     "android_frameworks_native:avium-16.2": {
       "version": "20260414.151658",
       "revision": "7d24f30f0863f0024c66e6f56902a8bd1fd2dbfe",
-      "url": "https://github.com/AviumUI/android_frameworks_native/commit/7d24f30f0863f0024c66e6f56902a8bd1fd2dbfe"
+      "url": "https://github.com/AviumUI/android_frameworks_native/commit/7d24f30f0863f0024c66e6f56902a8bd1fd2dbfe",
+      "revision_creation_time": "2026-04-14T15:16:58Z"
     },
     "android_frameworks_opt_telephony:avium-16.2": {
       "version": "20260607.065140",
       "revision": "dac734b9adc4ed1ec7f5b51a53811fc67a0f583d",
-      "url": "https://github.com/AviumUI/android_frameworks_opt_telephony/commit/dac734b9adc4ed1ec7f5b51a53811fc67a0f583d"
+      "url": "https://github.com/AviumUI/android_frameworks_opt_telephony/commit/dac734b9adc4ed1ec7f5b51a53811fc67a0f583d",
+      "revision_creation_time": "2026-06-07T06:51:40Z"
     },
     "android_hardware_qcom_display:avium-16.2-caf-sm8750": {
       "version": "20260518.044105",
       "revision": "123113c11d298a10e4fe740cc1ca37ab742f5e15",
-      "url": "https://github.com/AviumUI/android_hardware_qcom_display/commit/123113c11d298a10e4fe740cc1ca37ab742f5e15"
+      "url": "https://github.com/AviumUI/android_hardware_qcom_display/commit/123113c11d298a10e4fe740cc1ca37ab742f5e15",
+      "revision_creation_time": "2026-05-18T04:41:05Z"
     },
     "android_lineage-sdk:avium-16.2": {
       "version": "20260607.073343",
       "revision": "8c6692be5936932eeeeac9648ffc62f06fd52764",
-      "url": "https://github.com/AviumUI/android_lineage-sdk/commit/8c6692be5936932eeeeac9648ffc62f06fd52764"
+      "url": "https://github.com/AviumUI/android_lineage-sdk/commit/8c6692be5936932eeeeac9648ffc62f06fd52764",
+      "revision_creation_time": "2026-06-07T07:33:43Z"
     },
     "android_manifests:avium-16.2": {
       "version": "20260715.131538",
       "revision": "981823afd5a1c3fcf740cd3b4eeeb61331ca8304",
-      "url": "https://github.com/AviumUI/android_manifests/commit/981823afd5a1c3fcf740cd3b4eeeb61331ca8304"
+      "url": "https://github.com/AviumUI/android_manifests/commit/981823afd5a1c3fcf740cd3b4eeeb61331ca8304",
+      "revision_creation_time": "2026-07-15T13:15:38Z"
     },
     "android_packages_apps_AviumFreeWindow:avium-16.2": {
       "version": "20260425.124051",
       "revision": "26f2eabdea0f8b4debb60c5a4a5c10e26d7ff67f",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumFreeWindow/commit/26f2eabdea0f8b4debb60c5a4a5c10e26d7ff67f"
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumFreeWindow/commit/26f2eabdea0f8b4debb60c5a4a5c10e26d7ff67f",
+      "revision_creation_time": "2026-04-25T12:40:51Z"
     },
     "android_packages_apps_AviumLockscreenEdit:avium-16.2": {
       "version": "20260412.124549",
       "revision": "39a3bd85f44faf5c3342f249b2eda7a18511ed69",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/39a3bd85f44faf5c3342f249b2eda7a18511ed69"
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumLockscreenEdit/commit/39a3bd85f44faf5c3342f249b2eda7a18511ed69",
+      "revision_creation_time": "2026-04-12T12:45:49Z"
     },
     "android_packages_apps_AviumLyricBarCore:avium-16.2": {
       "version": "20260303.100856",
       "revision": "57bb8a51de9243085afd257dc386ffcedcc5a44d",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumLyricBarCore/commit/57bb8a51de9243085afd257dc386ffcedcc5a44d"
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumLyricBarCore/commit/57bb8a51de9243085afd257dc386ffcedcc5a44d",
+      "revision_creation_time": "2026-03-03T10:08:56Z"
     },
     "android_packages_apps_AviumSetup:avium-16.2": {
       "version": "20251203.140148",
       "revision": "0fa5800e1c06b06b5b79c46b0c6f4db4350b2c00",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumSetup/commit/0fa5800e1c06b06b5b79c46b0c6f4db4350b2c00"
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumSetup/commit/0fa5800e1c06b06b5b79c46b0c6f4db4350b2c00",
+      "revision_creation_time": "2025-12-03T14:01:48Z"
     },
     "android_packages_apps_AviumSystemUIEX:avium-16.2": {
       "version": "20260425.073326",
       "revision": "dcdf2011674ab766765c2372b3ec0ad263d18171",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/dcdf2011674ab766765c2372b3ec0ad263d18171"
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/dcdf2011674ab766765c2372b3ec0ad263d18171",
+      "revision_creation_time": "2026-04-25T07:33:26Z"
     },
     "android_packages_apps_AviumUseful:avium-16.2": {
       "version": "20260412.093137",
       "revision": "d023567cb06318a231b28f46ac22f5495167657b",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumUseful/commit/d023567cb06318a231b28f46ac22f5495167657b"
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumUseful/commit/d023567cb06318a231b28f46ac22f5495167657b",
+      "revision_creation_time": "2026-04-12T09:31:37Z"
     },
     "android_packages_apps_BtHelper:avium-16.2": {
       "version": "20250124.053503",
       "revision": "4c56078ed71e5fefdf5ccf3eea4c137588782fed",
-      "url": "https://github.com/AviumUI/android_packages_apps_BtHelper/commit/4c56078ed71e5fefdf5ccf3eea4c137588782fed"
+      "url": "https://github.com/AviumUI/android_packages_apps_BtHelper/commit/4c56078ed71e5fefdf5ccf3eea4c137588782fed",
+      "revision_creation_time": "2025-01-24T05:35:03Z"
     },
     "android_packages_apps_CatShare:avium-16.2": {
       "version": "20260522.131256",
       "revision": "04a9cc2efd225130f194aa057a88875bb4e964a2",
-      "url": "https://github.com/AviumUI/android_packages_apps_CatShare/commit/04a9cc2efd225130f194aa057a88875bb4e964a2"
+      "url": "https://github.com/AviumUI/android_packages_apps_CatShare/commit/04a9cc2efd225130f194aa057a88875bb4e964a2",
+      "revision_creation_time": "2026-05-22T13:12:56Z"
     },
     "android_packages_apps_ColumbusService:avium-16.2": {
       "version": "20260212.152008",
       "revision": "5fbdc38fd21eea0ded3db12f491b2eff74866e01",
-      "url": "https://github.com/AviumUI/android_packages_apps_ColumbusService/commit/5fbdc38fd21eea0ded3db12f491b2eff74866e01"
+      "url": "https://github.com/AviumUI/android_packages_apps_ColumbusService/commit/5fbdc38fd21eea0ded3db12f491b2eff74866e01",
+      "revision_creation_time": "2026-02-12T15:20:08Z"
     },
     "android_packages_apps_DepthWallpaperHelper:avium-16.2": {
       "version": "20260426.011515",
       "revision": "300a47d3946d1950273120cc7f3b2d91d9438cc8",
-      "url": "https://github.com/AviumUI/android_packages_apps_DepthWallpaperHelper/commit/300a47d3946d1950273120cc7f3b2d91d9438cc8"
+      "url": "https://github.com/AviumUI/android_packages_apps_DepthWallpaperHelper/commit/300a47d3946d1950273120cc7f3b2d91d9438cc8",
+      "revision_creation_time": "2026-04-26T01:15:15Z"
     },
     "android_packages_apps_FeatureSettings:avium-16.2": {
       "version": "20260715.134418",
       "revision": "16f525d0b05ade0509607f9c3764035128085b6a",
-      "url": "https://github.com/AviumUI/android_packages_apps_FeatureSettings/commit/16f525d0b05ade0509607f9c3764035128085b6a"
+      "url": "https://github.com/AviumUI/android_packages_apps_FeatureSettings/commit/16f525d0b05ade0509607f9c3764035128085b6a",
+      "revision_creation_time": "2026-07-15T13:44:18Z"
     },
     "android_packages_apps_GameSpace:avium-16.2": {
       "version": "20250901.104832",
       "revision": "50c62122f04d730473544337632ffd4bdff2c3bc",
-      "url": "https://github.com/AviumUI/android_packages_apps_GameSpace/commit/50c62122f04d730473544337632ffd4bdff2c3bc"
+      "url": "https://github.com/AviumUI/android_packages_apps_GameSpace/commit/50c62122f04d730473544337632ffd4bdff2c3bc",
+      "revision_creation_time": "2025-09-01T10:48:32Z"
     },
     "android_packages_apps_Launcher3:avium-16.2": {
       "version": "20260607.063900",
       "revision": "b5251480cc5bfbfdb06c5e9b277ebc5c6b762745",
-      "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/b5251480cc5bfbfdb06c5e9b277ebc5c6b762745"
+      "url": "https://github.com/AviumUI/android_packages_apps_Launcher3/commit/b5251480cc5bfbfdb06c5e9b277ebc5c6b762745",
+      "revision_creation_time": "2026-06-07T06:39:00Z"
     },
     "android_packages_apps_LineageParts:avium-16.2": {
       "version": "20260511.153732",
       "revision": "b76f3e7bf2c18cd45dcb9ae76cb82f8bb8b1f21b",
-      "url": "https://github.com/AviumUI/android_packages_apps_LineageParts/commit/b76f3e7bf2c18cd45dcb9ae76cb82f8bb8b1f21b"
+      "url": "https://github.com/AviumUI/android_packages_apps_LineageParts/commit/b76f3e7bf2c18cd45dcb9ae76cb82f8bb8b1f21b",
+      "revision_creation_time": "2026-05-11T15:37:32Z"
     },
     "android_packages_apps_Messaging:avium-16.2": {
       "version": "20260607.064137",
       "revision": "432614be01e5c3239f59e7c1609c7ecd4459b0ae",
-      "url": "https://github.com/AviumUI/android_packages_apps_Messaging/commit/432614be01e5c3239f59e7c1609c7ecd4459b0ae"
+      "url": "https://github.com/AviumUI/android_packages_apps_Messaging/commit/432614be01e5c3239f59e7c1609c7ecd4459b0ae",
+      "revision_creation_time": "2026-06-07T06:41:37Z"
     },
     "android_packages_apps_MoonWidget:avium-16.2": {
       "version": "20260521.100338",
       "revision": "e60eca5de3232ea9e5cb91a53a0bd3c0afa82ed9",
-      "url": "https://github.com/AviumUI/android_packages_apps_MoonWidget/commit/e60eca5de3232ea9e5cb91a53a0bd3c0afa82ed9"
+      "url": "https://github.com/AviumUI/android_packages_apps_MoonWidget/commit/e60eca5de3232ea9e5cb91a53a0bd3c0afa82ed9",
+      "revision_creation_time": "2026-05-21T10:03:38Z"
     },
     "android_packages_apps_Note:avium-16.2": {
       "version": "20260430.160137",
       "revision": "445cf98b79ab5affcfa52b55bce34cd5413450d6",
-      "url": "https://github.com/AviumUI/android_packages_apps_Note/commit/445cf98b79ab5affcfa52b55bce34cd5413450d6"
+      "url": "https://github.com/AviumUI/android_packages_apps_Note/commit/445cf98b79ab5affcfa52b55bce34cd5413450d6",
+      "revision_creation_time": "2026-04-30T16:01:37Z"
     },
     "android_packages_apps_OmniJaws:avium-16.2": {
       "version": "20250914.200253",
       "revision": "91921aaab69dcd29b46e70948bc635c9eb1d168b",
-      "url": "https://github.com/AviumUI/android_packages_apps_OmniJaws/commit/91921aaab69dcd29b46e70948bc635c9eb1d168b"
+      "url": "https://github.com/AviumUI/android_packages_apps_OmniJaws/commit/91921aaab69dcd29b46e70948bc635c9eb1d168b",
+      "revision_creation_time": "2025-09-14T20:02:53Z"
     },
     "android_packages_apps_ParanoidSense:avium-16.2": {
       "version": "20260212.152302",
       "revision": "7db3a06d705cc0376567dc617cd896c72685e32f",
-      "url": "https://github.com/AviumUI/android_packages_apps_ParanoidSense/commit/7db3a06d705cc0376567dc617cd896c72685e32f"
+      "url": "https://github.com/AviumUI/android_packages_apps_ParanoidSense/commit/7db3a06d705cc0376567dc617cd896c72685e32f",
+      "revision_creation_time": "2026-02-12T15:23:02Z"
     },
     "android_packages_apps_ScreenshotEdit:avium-16.2": {
       "version": "20260521.064308",
       "revision": "a4090dd4e3b5105f15eceecef358f73673bbec9a",
-      "url": "https://github.com/AviumUI/android_packages_apps_ScreenshotEdit/commit/a4090dd4e3b5105f15eceecef358f73673bbec9a"
+      "url": "https://github.com/AviumUI/android_packages_apps_ScreenshotEdit/commit/a4090dd4e3b5105f15eceecef358f73673bbec9a",
+      "revision_creation_time": "2026-05-21T06:43:08Z"
     },
     "android_packages_apps_Settings:avium-16.2": {
       "version": "20260715.085001",
       "revision": "44abb5b06b53c9434658c5878b38963f12062ddb",
-      "url": "https://github.com/AviumUI/android_packages_apps_Settings/commit/44abb5b06b53c9434658c5878b38963f12062ddb"
+      "url": "https://github.com/AviumUI/android_packages_apps_Settings/commit/44abb5b06b53c9434658c5878b38963f12062ddb",
+      "revision_creation_time": "2026-07-15T08:50:01Z"
     },
     "android_packages_apps_SetupWizard:avium-16.2": {
       "version": "20260207.192032",
       "revision": "ef3e9aee055caf168a0a26ef2bba47fc19c34655",
-      "url": "https://github.com/AviumUI/android_packages_apps_SetupWizard/commit/ef3e9aee055caf168a0a26ef2bba47fc19c34655"
+      "url": "https://github.com/AviumUI/android_packages_apps_SetupWizard/commit/ef3e9aee055caf168a0a26ef2bba47fc19c34655",
+      "revision_creation_time": "2026-02-07T19:20:32Z"
     },
     "android_packages_apps_Starmoment:avium-16.2": {
       "version": "20260522.135938",
       "revision": "2c95a6a77040d47db2f0667af894e8ba6c9bf498",
-      "url": "https://github.com/AviumUI/android_packages_apps_Starmoment/commit/2c95a6a77040d47db2f0667af894e8ba6c9bf498"
+      "url": "https://github.com/AviumUI/android_packages_apps_Starmoment/commit/2c95a6a77040d47db2f0667af894e8ba6c9bf498",
+      "revision_creation_time": "2026-05-22T13:59:38Z"
     },
     "android_packages_apps_SystemUITools:avium-16.2": {
       "version": "20260121.084737",
       "revision": "5ae722a91507d7f4effbb0ea8bd68931b6ba2275",
-      "url": "https://github.com/AviumUI/android_packages_apps_SystemUITools/commit/5ae722a91507d7f4effbb0ea8bd68931b6ba2275"
+      "url": "https://github.com/AviumUI/android_packages_apps_SystemUITools/commit/5ae722a91507d7f4effbb0ea8bd68931b6ba2275",
+      "revision_creation_time": "2026-01-21T08:47:37Z"
     },
     "android_packages_apps_Updater:avium-16.2": {
       "version": "20260426.033046",
       "revision": "a12ce67b20d816c483514ea37162b12b2a5144ab",
-      "url": "https://github.com/AviumUI/android_packages_apps_Updater/commit/a12ce67b20d816c483514ea37162b12b2a5144ab"
+      "url": "https://github.com/AviumUI/android_packages_apps_Updater/commit/a12ce67b20d816c483514ea37162b12b2a5144ab",
+      "revision_creation_time": "2026-04-26T03:30:46Z"
     },
     "android_packages_apps_Via:avium-16.2": {
       "version": "20260519.132436",
       "revision": "0f904563c36aa667adffdc6fd7d73a3eaa73e19e",
-      "url": "https://github.com/AviumUI/android_packages_apps_Via/commit/0f904563c36aa667adffdc6fd7d73a3eaa73e19e"
+      "url": "https://github.com/AviumUI/android_packages_apps_Via/commit/0f904563c36aa667adffdc6fd7d73a3eaa73e19e",
+      "revision_creation_time": "2026-05-19T13:24:36Z"
     },
     "android_packages_modules_Nfc:avium-16.2": {
       "version": "20260607.055931",
       "revision": "02f2988d9e8295219dcf77327eb28a10af564c75",
-      "url": "https://github.com/AviumUI/android_packages_modules_Nfc/commit/02f2988d9e8295219dcf77327eb28a10af564c75"
+      "url": "https://github.com/AviumUI/android_packages_modules_Nfc/commit/02f2988d9e8295219dcf77327eb28a10af564c75",
+      "revision_creation_time": "2026-06-07T05:59:31Z"
     },
     "android_packages_modules_Wifi:avium-16.2": {
       "version": "20260715.084230",
       "revision": "e4c98aa1c83fcb7f20e2d8e91511ee9a2216409f",
-      "url": "https://github.com/AviumUI/android_packages_modules_Wifi/commit/e4c98aa1c83fcb7f20e2d8e91511ee9a2216409f"
+      "url": "https://github.com/AviumUI/android_packages_modules_Wifi/commit/e4c98aa1c83fcb7f20e2d8e91511ee9a2216409f",
+      "revision_creation_time": "2026-07-15T08:42:30Z"
     },
     "android_packages_overlays_Lineage:avium-16.2": {
       "version": "20260311.171048",
       "revision": "806dd920c3735ead72bb1eb67049c46cb3597d2d",
-      "url": "https://github.com/AviumUI/android_packages_overlays_Lineage/commit/806dd920c3735ead72bb1eb67049c46cb3597d2d"
+      "url": "https://github.com/AviumUI/android_packages_overlays_Lineage/commit/806dd920c3735ead72bb1eb67049c46cb3597d2d",
+      "revision_creation_time": "2026-03-11T17:10:48Z"
     },
     "android_packages_resources_devicesettings:avium-16.2": {
       "version": "20260708.165107",
       "revision": "4a9d53c5906a17f150d49908a876fe102eb14589",
-      "url": "https://github.com/AviumUI/android_packages_resources_devicesettings/commit/4a9d53c5906a17f150d49908a876fe102eb14589"
+      "url": "https://github.com/AviumUI/android_packages_resources_devicesettings/commit/4a9d53c5906a17f150d49908a876fe102eb14589",
+      "revision_creation_time": "2026-07-08T16:51:07Z"
     },
     "android_system_core:avium-16.2": {
       "version": "20260607.101815",
       "revision": "202f54380091906fafe35681b0a68ec2fe3c1a4d",
-      "url": "https://github.com/AviumUI/android_system_core/commit/202f54380091906fafe35681b0a68ec2fe3c1a4d"
+      "url": "https://github.com/AviumUI/android_system_core/commit/202f54380091906fafe35681b0a68ec2fe3c1a4d",
+      "revision_creation_time": "2026-06-07T10:18:15Z"
     },
     "android_system_security:avium-16.2": {
       "version": "20260520.154157",
       "revision": "13c7946e5cb6abec857da20e934185e3b3d4427d",
-      "url": "https://github.com/AviumUI/android_system_security/commit/13c7946e5cb6abec857da20e934185e3b3d4427d"
+      "url": "https://github.com/AviumUI/android_system_security/commit/13c7946e5cb6abec857da20e934185e3b3d4427d",
+      "revision_creation_time": "2026-05-20T15:41:57Z"
     },
     "android_system_sepolicy:avium-16.2": {
       "version": "20260222.204354",
       "revision": "4a20f6188e7b36f5aa5df8ca0f4339b6c4a1b3c1",
-      "url": "https://github.com/AviumUI/android_system_sepolicy/commit/4a20f6188e7b36f5aa5df8ca0f4339b6c4a1b3c1"
+      "url": "https://github.com/AviumUI/android_system_sepolicy/commit/4a20f6188e7b36f5aa5df8ca0f4339b6c4a1b3c1",
+      "revision_creation_time": "2026-02-22T20:43:54Z"
     },
     "android_vendor_avium:avium-16.2": {
       "version": "20260609.133611",
       "revision": "8812dce06ac6af3e74975dd9a71b3ea21002d6d2",
-      "url": "https://github.com/AviumUI/android_vendor_avium/commit/8812dce06ac6af3e74975dd9a71b3ea21002d6d2"
+      "url": "https://github.com/AviumUI/android_vendor_avium/commit/8812dce06ac6af3e74975dd9a71b3ea21002d6d2",
+      "revision_creation_time": "2026-06-09T13:36:11Z"
     },
     "android_vendor_lineage:avium-16.2": {
       "version": "20260705.003437",
       "revision": "a05455c1d4f0f69580cd0acdd67b117ecb9c232d",
-      "url": "https://github.com/AviumUI/android_vendor_lineage/commit/a05455c1d4f0f69580cd0acdd67b117ecb9c232d"
+      "url": "https://github.com/AviumUI/android_vendor_lineage/commit/a05455c1d4f0f69580cd0acdd67b117ecb9c232d",
+      "revision_creation_time": "2026-07-05T00:34:37Z"
     },
     "android_vendor_qcom_opensource_display-core:avium-16.2-caf-sm8750": {
       "version": "20260518.044740",
       "revision": "0c47d4c97cc144ce21696648f89a1f02849ba1b4",
-      "url": "https://github.com/AviumUI/android_vendor_qcom_opensource_display-core/commit/0c47d4c97cc144ce21696648f89a1f02849ba1b4"
+      "url": "https://github.com/AviumUI/android_vendor_qcom_opensource_display-core/commit/0c47d4c97cc144ce21696648f89a1f02849ba1b4",
+      "revision_creation_time": "2026-05-18T04:47:40Z"
     },
     "packages_apps_AviumSetup:avium-16.2": {
       "version": "20251203.140148",
@@ -254,17 +303,20 @@
     "proprietary_vendor_pixel_clocks:avium-16.2": {
       "version": "20260211.182541",
       "revision": "e3beb954fd54d82798f34002425ff58f9a115714",
-      "url": "https://github.com/AviumUI/proprietary_vendor_pixel_clocks/commit/e3beb954fd54d82798f34002425ff58f9a115714"
+      "url": "https://github.com/AviumUI/proprietary_vendor_pixel_clocks/commit/e3beb954fd54d82798f34002425ff58f9a115714",
+      "revision_creation_time": "2026-02-11T18:25:41Z"
     },
     "proprietary_vendor_pixel_gms:avium-16.2": {
       "version": "20260130.174718",
       "revision": "729ad4d0e9a3c0fe2f7e548fce00bda76190b0fd",
-      "url": "https://github.com/AviumUI/proprietary_vendor_pixel_gms/commit/729ad4d0e9a3c0fe2f7e548fce00bda76190b0fd"
+      "url": "https://github.com/AviumUI/proprietary_vendor_pixel_gms/commit/729ad4d0e9a3c0fe2f7e548fce00bda76190b0fd",
+      "revision_creation_time": "2026-01-30T17:47:18Z"
     },
     "proprietary_vendor_pixel_gsans:avium-16.2": {
       "version": "20260130.141136",
       "revision": "cb363d22d4c739d17f2069b3d7993a40095c9f42",
-      "url": "https://github.com/AviumUI/proprietary_vendor_pixel_gsans/commit/cb363d22d4c739d17f2069b3d7993a40095c9f42"
+      "url": "https://github.com/AviumUI/proprietary_vendor_pixel_gsans/commit/cb363d22d4c739d17f2069b3d7993a40095c9f42",
+      "revision_creation_time": "2026-01-30T14:11:36Z"
     }
   }
 }
