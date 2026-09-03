@@ -278,10 +278,10 @@
       "revision_creation_time": "2026-02-22T20:43:54Z"
     },
     "android_vendor_avium:avium-16.2": {
-      "version": "20260609.133611",
-      "revision": "8812dce06ac6af3e74975dd9a71b3ea21002d6d2",
-      "url": "https://github.com/AviumUI/android_vendor_avium/commit/8812dce06ac6af3e74975dd9a71b3ea21002d6d2",
-      "revision_creation_time": "2026-06-09T13:36:11Z"
+      "version": "20260809.083519",
+      "revision": "13e02a686afba32d1021102b64a4d73d6350d5fd",
+      "url": "https://github.com/AviumUI/android_vendor_avium/commit/13e02a686afba32d1021102b64a4d73d6350d5fd",
+      "revision_creation_time": "2026-08-09T08:35:19Z"
     },
     "android_vendor_lineage:avium-16.2": {
       "version": "20260705.003437",
