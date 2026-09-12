@@ -2,16 +2,16 @@
   "version": 2,
   "data": {
     "android_device_oneplus_dodge:lineage-23.2": {
-      "version": "20260901.073104",
-      "revision": "ac02a37f84e291019a4354d20c94e55fa5bbeebd",
-      "url": "https://github.com/LineageOS/android_device_oneplus_dodge/commit/ac02a37f84e291019a4354d20c94e55fa5bbeebd",
-      "revision_creation_time": "2026-09-01T07:31:04Z"
+      "version": "20260911.220324",
+      "revision": "47a8559487359e75492515ed28ad59c4f2e201f9",
+      "url": "https://github.com/LineageOS/android_device_oneplus_dodge/commit/47a8559487359e75492515ed28ad59c4f2e201f9",
+      "revision_creation_time": "2026-09-11T22:03:24Z"
     },
     "android_device_oneplus_sm8750-common:lineage-23.2": {
-      "version": "20260909.000149",
-      "revision": "a4890c7d108503293fdafa41adb9d6efc0ee94e0",
-      "url": "https://github.com/LineageOS/android_device_oneplus_sm8750-common/commit/a4890c7d108503293fdafa41adb9d6efc0ee94e0",
-      "revision_creation_time": "2026-09-09T00:01:49Z"
+      "version": "20260911.213503",
+      "revision": "5d99dea91a312af769eba1a2cf26a5cf6bab7d78",
+      "url": "https://github.com/LineageOS/android_device_oneplus_sm8750-common/commit/5d99dea91a312af769eba1a2cf26a5cf6bab7d78",
+      "revision_creation_time": "2026-09-11T21:35:03Z"
     },
     "android_hardware_oplus:lineage-23.2": {
       "version": "20260910.205547",
@@ -32,10 +32,10 @@
       "revision_creation_time": "2026-08-20T11:39:34Z"
     },
     "android_kernel_oneplus_sm8750:lineage-23.2": {
-      "version": "20260910.221320",
-      "revision": "229cea35792305dcd679479c5c477d186bf66ce9",
-      "url": "https://github.com/LineageOS/android_kernel_oneplus_sm8750/commit/229cea35792305dcd679479c5c477d186bf66ce9",
-      "revision_creation_time": "2026-09-10T22:13:20Z"
+      "version": "20260911.203451",
+      "revision": "edc821586bcb80b7c614840386e9301aaacd48a6",
+      "url": "https://github.com/LineageOS/android_kernel_oneplus_sm8750/commit/edc821586bcb80b7c614840386e9301aaacd48a6",
+      "revision_creation_time": "2026-09-11T20:34:51Z"
     }
   }
 }
