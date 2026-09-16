@@ -26,10 +26,10 @@
       "revision_creation_time": "2026-08-06T13:29:49Z"
     },
     "android_kernel_oneplus_sm8750-modules:lineage-23.2": {
-      "version": "20260820.113934",
-      "revision": "3613bfa7517a83f3a36bcb4677838f97dc102cad",
-      "url": "https://github.com/LineageOS/android_kernel_oneplus_sm8750-modules/commit/3613bfa7517a83f3a36bcb4677838f97dc102cad",
-      "revision_creation_time": "2026-08-20T11:39:34Z"
+      "version": "20260916.054228",
+      "revision": "ebae88245f48fbfe93bd5f154272c6646b4cdcd7",
+      "url": "https://github.com/LineageOS/android_kernel_oneplus_sm8750-modules/commit/ebae88245f48fbfe93bd5f154272c6646b4cdcd7",
+      "revision_creation_time": "2026-09-16T05:42:28Z"
     },
     "android_kernel_oneplus_sm8750:lineage-23.2": {
       "version": "20260911.203451",
