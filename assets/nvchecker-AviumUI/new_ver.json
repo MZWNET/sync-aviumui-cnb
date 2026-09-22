@@ -32,16 +32,16 @@
       "revision_creation_time": "2026-06-14T09:58:17Z"
     },
     "android_frameworks_av:avium-16.2": {
-      "version": "20260607.064828",
-      "revision": "e40c0b45225070d717393301c5e209a7ff03c46b",
-      "url": "https://github.com/AviumUI/android_frameworks_av/commit/e40c0b45225070d717393301c5e209a7ff03c46b",
-      "revision_creation_time": "2026-06-07T06:48:28Z"
+      "version": "20260718.201155",
+      "revision": "62a9383df27de8fc06e2c53d71c7b1091b00c71f",
+      "url": "https://github.com/AviumUI/android_frameworks_av/commit/62a9383df27de8fc06e2c53d71c7b1091b00c71f",
+      "revision_creation_time": "2026-07-18T20:11:55Z"
     },
     "android_frameworks_base:avium-16.2": {
-      "version": "20260620.140221",
-      "revision": "95a1d4ff3979ee0abc48feca0577817d3024a436",
-      "url": "https://github.com/AviumUI/android_frameworks_base/commit/95a1d4ff3979ee0abc48feca0577817d3024a436",
-      "revision_creation_time": "2026-06-20T14:02:21Z"
+      "version": "20260718.201150",
+      "revision": "0ffa0d4a2446bdd031bad0ee6cd9dbe8b7e66565",
+      "url": "https://github.com/AviumUI/android_frameworks_base/commit/0ffa0d4a2446bdd031bad0ee6cd9dbe8b7e66565",
+      "revision_creation_time": "2026-07-18T20:11:50Z"
     },
     "android_frameworks_libs_systemui:avium-16.2": {
       "version": "20260126.135018",
