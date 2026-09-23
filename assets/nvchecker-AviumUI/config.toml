@@ -198,6 +198,11 @@ source = "github"
 github = "AviumUI/android_packages_apps_Via"
 branch = "avium-16.2"
 
+["android_packages_modules_Connectivity:avium-16.2"]
+source = "github"
+github = "AviumUI/android_packages_modules_Connectivity"
+branch = "avium-16.2"
+
 ["android_packages_modules_Nfc:avium-16.2"]
 source = "github"
 github = "AviumUI/android_packages_modules_Nfc"
@@ -221,6 +226,11 @@ branch = "avium-16.2"
 ["android_system_core:avium-16.2"]
 source = "github"
 github = "AviumUI/android_system_core"
+branch = "avium-16.2"
+
+["android_system_netd:avium-16.2"]
+source = "github"
+github = "AviumUI/android_system_netd"
 branch = "avium-16.2"
 
 ["android_system_security:avium-16.2"]
