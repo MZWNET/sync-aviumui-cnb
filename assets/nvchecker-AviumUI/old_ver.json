@@ -68,10 +68,10 @@
       "revision_creation_time": "2026-05-18T04:41:05Z"
     },
     "android_lineage-sdk:avium-16.2": {
-      "version": "20260607.073343",
-      "revision": "8c6692be5936932eeeeac9648ffc62f06fd52764",
-      "url": "https://github.com/AviumUI/android_lineage-sdk/commit/8c6692be5936932eeeeac9648ffc62f06fd52764",
-      "revision_creation_time": "2026-06-07T07:33:43Z"
+      "version": "20260925.133125",
+      "revision": "f8e317d0719cabd6ff6b7b982b7ea522e7bb3be0",
+      "url": "https://github.com/AviumUI/android_lineage-sdk/commit/f8e317d0719cabd6ff6b7b982b7ea522e7bb3be0",
+      "revision_creation_time": "2026-09-25T13:31:25Z"
     },
     "android_manifests:avium-16.2": {
       "version": "20260922.100924",
@@ -158,10 +158,10 @@
       "revision_creation_time": "2026-09-22T23:50:29Z"
     },
     "android_packages_apps_LineageParts:avium-16.2": {
-      "version": "20260511.153732",
-      "revision": "b76f3e7bf2c18cd45dcb9ae76cb82f8bb8b1f21b",
-      "url": "https://github.com/AviumUI/android_packages_apps_LineageParts/commit/b76f3e7bf2c18cd45dcb9ae76cb82f8bb8b1f21b",
-      "revision_creation_time": "2026-05-11T15:37:32Z"
+      "version": "20260925.233639",
+      "revision": "cfb3070ec390bd21296842e4cf7ed3d31819f26d",
+      "url": "https://github.com/AviumUI/android_packages_apps_LineageParts/commit/cfb3070ec390bd21296842e4cf7ed3d31819f26d",
+      "revision_creation_time": "2026-09-25T23:36:39Z"
     },
     "android_packages_apps_Messaging:avium-16.2": {
       "version": "20260607.064137",
@@ -260,10 +260,10 @@
       "revision_creation_time": "2026-03-11T17:10:48Z"
     },
     "android_packages_resources_devicesettings:avium-16.2": {
-      "version": "20260708.165107",
-      "revision": "4a9d53c5906a17f150d49908a876fe102eb14589",
-      "url": "https://github.com/AviumUI/android_packages_resources_devicesettings/commit/4a9d53c5906a17f150d49908a876fe102eb14589",
-      "revision_creation_time": "2026-07-08T16:51:07Z"
+      "version": "20260925.133621",
+      "revision": "7f7eda397b4ad654936ece82e3596f879d9400b8",
+      "url": "https://github.com/AviumUI/android_packages_resources_devicesettings/commit/7f7eda397b4ad654936ece82e3596f879d9400b8",
+      "revision_creation_time": "2026-09-25T13:36:21Z"
     },
     "android_system_core:avium-16.2": {
       "version": "20260607.101815",
