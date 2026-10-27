@@ -104,10 +104,10 @@
       "revision_creation_time": "2025-12-03T14:01:48Z"
     },
     "android_packages_apps_AviumSystemUIEX:avium-16.2": {
-      "version": "20260922.043911",
-      "revision": "4cf7bc58856b8c4987b9914836db98afd3d13e9d",
-      "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/4cf7bc58856b8c4987b9914836db98afd3d13e9d",
-      "revision_creation_time": "2026-09-22T04:39:11Z"
+      "version": "20261025.124813",
+      "revision": "ac931ee88a18504f51cafe0556e8d03bef1e48f9",
+      "url": "https://github.com/AviumUI/android_packages_apps_AviumSystemUIEX/commit/ac931ee88a18504f51cafe0556e8d03bef1e48f9",
+      "revision_creation_time": "2026-10-25T12:48:13Z"
     },
     "android_packages_apps_AviumUseful:avium-16.2": {
       "version": "20260412.093137",
